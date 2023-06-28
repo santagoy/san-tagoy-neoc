@@ -1,0 +1,44 @@
+[[entries]]
+title = "info"
+
+  [[entries.entries]]
+  title = "A log of practice pieces on my road to better writing."
+
+  [[entries.entries]]
+  title = "I mainly write about ttrpgs, but there's the occassional thought piece or poem."
+
+  [[entries.entries]]
+  title = "original site"
+  url = "https://san-tagoy.xyz/"
+
+  [[entries.entries]]
+  title = "rss feed"
+  url = "index.xml"
+
+[[entries]]
+title = "Blog Entries"
+
+  [entries.post_list]
+  limit = 6
+  show_more = true
+  show_more_text = "See archive"
+  show_more_url = "posts"
+
+[[entries]]
+title = "poems"
+
+  [entries.post_list]
+  limit = 2
+  section = "poems"
+  show_more = true
+  show_more_text = "See more"
+  show_more_url = "posts"
+
+[[entries]]
+title = "RPG RULES"
+
+  [[entries.entries]]
+  title = "Wanton Pinoy Spaghetti"
+
+  [entries.entries.post_list]
+  section = "wps"

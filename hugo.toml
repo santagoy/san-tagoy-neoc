@@ -1,0 +1,5 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Getting Better'
+theme = 'nostyleplease'
+timeZone = 'Asia/Manila'
