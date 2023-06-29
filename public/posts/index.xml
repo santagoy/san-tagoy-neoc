@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Getting Better</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on Getting Better</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0800</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sages and a Non-Vancian Magic System</title>
+      <link>http://example.org/posts/sages/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0800</pubDate>
+      
+      <guid>http://example.org/posts/sages/</guid>
+      <description>A random magic system for use in your games.</description>
+    </item>
+    
+    <item>
+      <title>Remembering the Sun and Its Shadows</title>
+      <link>http://example.org/posts/sun-shadow/</link>
+      <pubDate>Thu, 29 Jun 2023 00:00:00 +0800</pubDate>
+      
+      <guid>http://example.org/posts/sun-shadow/</guid>
+      <description>Something I wrote about past mistakes, the burden of memory, and an epiphany brought about by good company.
+Remember when I was young? I rather not. The sins from then still stain the once ivory light I shine. Bright, unyielding naivete colored those movements. Wherever I went, my shadows inflicted pain, undeservingly— I am not asking for contrition, Father. I am unworthy, but I fetch a good price in the market.</description>
+    </item>
+    
+  </channel>
+</rss>

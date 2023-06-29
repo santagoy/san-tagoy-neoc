@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://example.org/posts/</loc>
+    <lastmod>2023-06-30T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/sages/</loc>
+    <lastmod>2023-06-30T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://example.org/wps/wps-chargen/</loc>
+    <lastmod>2023-06-29T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://example.org/</loc>
+    <lastmod>2023-06-29T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://example.org/wps/wps-lifepaths/</loc>
+    <lastmod>2023-06-29T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/sun-shadow/</loc>
+    <lastmod>2023-06-29T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://example.org/wps/wps-gear/</loc>
+    <lastmod>2023-06-29T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://example.org/wps/wps-violence/</loc>
+    <lastmod>2023-06-29T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://example.org/wps/</loc>
+    <lastmod>2023-06-29T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://example.org/categories/</loc>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
+  </url>
+</urlset>
