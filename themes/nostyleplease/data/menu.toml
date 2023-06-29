@@ -11,27 +11,14 @@ title = "info"
   title = "original site"
   url = "https://san-tagoy.xyz/"
 
-  [[entries.entries]]
-  title = "rss feed"
-  url = "index.xml"
-
 [[entries]]
-title = "Blog Entries"
+title = "the blog"
 
   [entries.post_list]
-  limit = 6
+  section = 'posts'
+  limit = 4
   show_more = true
-  show_more_text = "See archive"
-  show_more_url = "posts"
-
-[[entries]]
-title = "poems"
-
-  [entries.post_list]
-  limit = 2
-  section = "poems"
-  show_more = true
-  show_more_text = "See more"
+  show_more_text = "Archive"
   show_more_url = "posts"
 
 [[entries]]
@@ -41,4 +28,4 @@ title = "RPG RULES"
   title = "Wanton Pinoy Spaghetti"
 
   [entries.entries.post_list]
-  section = "wps"
+  section = 'wps'

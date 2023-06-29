@@ -5,6 +5,24 @@
         <main class="page-content" aria-label="Content">
             <div class="w">
                 {{- block "main" . }}{{- end }}
+                <hr>
+                <form
+                action="https://buttondown.email/api/emails/embed-subscribe/san_tagoy"
+                method="post"
+                target="popupwindow"
+                onsubmit="window.open('https://buttondown.email/san_tagoy', 'popupwindow')"
+                class="buttondown"
+                >
+                <label for="bd-email">Newsletter:</label>
+                <input type="email" name="email" id="bd-email" />
+                <input type="submit" value="Thank you!" />
+                <p>
+                    <a href="https://buttondown.email/refer/san_tagoy" target="_blank">Powered by Buttondown.</a>
+                </p>
+                <p>
+                    <a href="https://san-tagoy.neocities.org/index.xml" target="_blank">Or subscribe via RSS</a>
+                </p>
+                </form>
             </div>
         </main>
     </body>

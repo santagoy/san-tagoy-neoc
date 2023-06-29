@@ -40,10 +40,10 @@ html { height: 100%; }
   font-style: italic;
 }
 
-body {
+body, form {
   color: #1d1d10;
   font-family: barlow;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.4;
   margin: 0;
   min-height: 100%;
@@ -60,12 +60,16 @@ p { margin: 1rem 0; }
 
 li { margin: 0.4rem 0; }
 
-*:target { background: yellow; }
+*:target { background: #ffffc2; }
 
 .w {
-  max-width: 640px;
+  max-width: 650px;
   margin: 0 auto;
   padding: 4rem 2rem;
+}
+
+.buttondown {
+  text-align: center;
 }
 
 .toc {
@@ -127,4 +131,34 @@ img {
 figcaption {
   text-align: center;
   opacity: 0.5;
+}
+
+.sitelogo {
+  max-width: 175px;
+  margin: 0 auto;
+}
+
+a:link {
+  text-decoration: none;
+  color: #3c3e00
+}
+
+a:visited {
+  color: #9f1900;
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:active {
+  color: #b9aec3;
+  background-color: #9f1900;
+  text-decoration: none;
+}
+
+.half {
+  max-width: 50%;
+  margin: 0 auto;
 }

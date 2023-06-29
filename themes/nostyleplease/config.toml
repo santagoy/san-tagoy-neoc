@@ -1,7 +1,7 @@
 [module]
   [module.hugoVersion]
     extended=true
-    min = "0.41.0"
+    min = "0.114.1"
 
 [markup]
   [markup.goldmark]
@@ -25,8 +25,8 @@
     tabWidth = 4
   [markup.tableOfContents]
     startLevel = 2
-    endLevel = 3
-    ordered = false
+    endLevel = 5
+    ordered = true
 
 [params]
   [params.theme_config]
