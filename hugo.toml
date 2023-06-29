@@ -31,5 +31,6 @@ timeZone = 'Asia/Manila'
 
 [params]
   author = 'Nico Santagoy'
+  images = '/feature.png'
   description = "I used to design games, now I write them. Am I a writer? I'd like to be one. I'd like to be many things, like a collage artist or a writer of Tabletop Role-playing Game content."
   favicon = '/favicon.ico'

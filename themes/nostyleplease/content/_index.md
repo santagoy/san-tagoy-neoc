@@ -1,5 +1,5 @@
 +++
-title =  "Do you want to join my newsletter?"
+title =  "Getting Better"
 date = 2023-06-29
 draft = false
 +++
