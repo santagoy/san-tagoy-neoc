@@ -5,12 +5,13 @@ summary: |
   A random magic system for use in your games.
 images:
   - /images/sage/feature.jpg
+toc: true
 date: 2023-06-30
 ---
 
 ---
 
-These are my actual words this time. I made this class only because I wanted to avoid Vancian casting for my games. I don't think it's the most intuitive thing for people to learn at the table and I run for a lot of them.
+I made this class only because I wanted to avoid Vancian casting for my games. I don't think it's the most intuitive thing for people to learn at the table and I run for a lot of them.
 
 I don't mind people who play casually either so this "magic system" is mostly meant to generate adventures and serve as something more freeform for players. The GM tools and aids (like tables) for generating spells aren't made yet. This post is entirely player-facing at the moment. Hope to have aforementioned tables and utilities finished when they're done.
 
