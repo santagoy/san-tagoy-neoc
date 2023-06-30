@@ -2,6 +2,10 @@
 draft: false
 title: "Remembering the Sun and Its Shadows"
 date: 2023-06-29
+categories:
+ - poem
+tags:
+ - practice
 ---
 
 Something I wrote about past mistakes, the burden of memory, and an epiphany brought about by good company.

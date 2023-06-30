@@ -157,7 +157,7 @@ figcaption {
 
 a:link {
   text-decoration: none;
-  color: #3c3e00
+  color: #7c6a00
 }
 
 a:visited {
@@ -188,4 +188,9 @@ a:active {
 .float-right {
   float:right;
   margin-bottom: 15px;
+}
+
+.itch-frame {
+  display: block;
+  margin: 0 auto;
 }

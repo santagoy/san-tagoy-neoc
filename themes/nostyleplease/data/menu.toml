@@ -17,12 +17,26 @@ title = "info"
 [[entries]]
 title = "the blog"
 
-  [entries.post_list]
-  section = 'posts'
-  limit = 4
-  show_more = true
-  show_more_text = "Archive"
-  show_more_url = "posts"
+  [[entries.entries]]
+  title = "the latest"
+
+    [entries.entries.post_list]
+    section = 'posts'
+    limit = 4
+    show_more = true
+    show_more_text = "Archive"
+    show_more_url = "posts"
+
+  [[entries.entries]]
+  title = "organize by"
+
+    [[entries.entries.entries]]
+    title = "tags"
+    url = "tags"
+
+    [[entries.entries.entries]]
+    title = "categories"
+    url = "categories"
 
 [[entries]]
 title = "RPG RULES"

@@ -4,9 +4,15 @@ title: "Sages and a Non-Vancian Magic System"
 summary: |
   A random magic system for use in your games.
 images:
-  - /images/sage/feature.jpg
+  - /img/sage/feature.jpg
 toc: true
 date: 2023-06-30
+categories:
+ - ttrpg
+tags:
+ - ODnD
+ - thinking adventures
+ - magic system
 ---
 
 ---
@@ -19,7 +25,7 @@ I don't mind people who play casually either so this "magic system" is mostly me
 
 ## Sages
 
-![stamp of Faust dealing with mephisto](/images/sage/hero-image.jpg)
+![stamp of Faust dealing with mephisto](/img/sage/hero-image.jpg)
 {.half}
 
 The world of the arcane is full of deceit and trickery amidst these Others. The magical creatures of others realms operate in ways alien to the human experience. Yet they hold great power and prove a valuable ally in the dangers of the underworld and wilderness.
@@ -47,7 +53,7 @@ For a price, these magical creatures provide their services to you—your will b
 
 All magical creatures require an object or mortal host to persist. Wands, amulets, weapons are the frequent choice of many. Mortal hosts range from a human sacrifice to even a raven. In the case of the former, the person turned corpse becomes the vessel for the creature.
 
-![stamp of priest dealing with mephisto](/images/sage/01.jpg)
+![stamp of priest dealing with mephisto](/img/sage/01.jpg)
 {.half}
 
 ## Banishing

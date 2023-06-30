@@ -4,9 +4,14 @@ title: "Found on the Road! No. 01"
 summary: |
   A rundown of interesting things I've found, new and old!
 images:
-  - /images/fotd-1/feature.jpg
+  - /img/fotd-1/feature.jpg
 toc: true
 date: 2023-06-30
+categories:
+ - newsletter
+tags:
+ - tabletop
+ - tech
 ---
 
 On my road to better writing, I find things along the way that pique my interest. This may or may not be adjacent to writing or Tabletop RPGs. Honestly, I realized that I've been a tad self-centered on this blog, only making stuff I like and highlighting no one else's cool works. That changes now.
@@ -19,7 +24,7 @@ I won't promise to highlight neat things that have come out only recently. I'll 
 
 ### [Her Heart in a Porcelain Jar](https://spookyjaguar.itch.io/her-heart-in-a-porcelain-jar)
 
-![art:Her Heart](/images/fotd-1/her-heart.png)
+![art:Her Heart](/img/fotd-1/her-heart.png)
 {.half}
 
 I've always wanted to talk about this. It reminds me a of a time where low-rise skinny jeans and studded belts were _the style_ of people I chose not to associate with. This adventure is urban fantasy all about scene kids and their foibles. It's compact and quick to run. I should run this when I find time. Although I've been telling myself that for months since I got this.
@@ -32,7 +37,7 @@ Link is in the header. If you want to check out more of Evey's stuff, you should
 
 ### Bulletin Board Systems
 
-![art:hold fast bbs menu screen](/images/fotd-1/bbs_01.png "nitron's hold fast bbs main menu with ansi art typography")
+![art:hold fast bbs menu screen](/img/fotd-1/bbs_01.png "nitron's hold fast bbs main menu with ansi art typography")
 {.half}
 
 For those aware of the tech, yes, they still exist. For those unaware, this was tech predating the internet. Someone essentially transmitted something like a website operated through a terminal through phone lines to other computers. At one point, it was accessible globally from one computer on the planet to another.
@@ -41,7 +46,7 @@ The primary utility of BBS is a form of decentralization away from corporate-con
 
 ### [Fortles, Adventure Journal](https://nerves.store/products/fortles-adventure-journal)
 
-![art:fortles](/images/fotd-1/fortles.webp)
+![art:fortles](/img/fotd-1/fortles.webp)
 {.half}
 
 It's tangentially related to RPGs in that it's a setting book of sorts. I like to think of it more as a fun picture book for all ages inspired by Troika's fort turtle thing. It's cute and charming.
@@ -58,7 +63,7 @@ These are things that have come into being relatively recently—whenever that i
 
 ### [Against the Grey](https://secret-table.itch.io/against-the-grey)
 
-![art:against-the-grey](/images/fotd-1/against-the-grey.jpg)
+![art:against-the-grey](/img/fotd-1/against-the-grey.jpg)
 {.half}
 
 I like this one! You are anthropomorphic forest dwellers or travellers defending your homes from a hostile corporation looking to make profits at your expense. I see myself needing to fill in the blanks with my own prep, but not to an unreasonable level. It leaves me with enough to actually run something substantial!
@@ -71,7 +76,7 @@ Regardless, I really recommend getting yourself a copy of this dense pamphlet!
 
 ### [Black Manse](https://spearwitch.com/products/pre-order-black-manse)
 
-![art:black-manse](/images/fotd-1/black-manse.webp)
+![art:black-manse](/img/fotd-1/black-manse.webp)
 {.half}
 
 It's gothic, yes! How gothic? It comes with a black ribbon in the printed release! It's also on a special pre-order discount that you can nab on the link above. Now, seriously, I haven't had a chance to take a look at the text in particular, but I've had experience with Micah's other works and they're pretty neat.
@@ -80,10 +85,10 @@ I've also been keen on running an adventure akin to Tegel Manor and this one sho
 
 That's also a neat cover. I wonder what it would look like if the moon glows in the dark. Oh well, one can only dream.
 
-![art:black-manse](/images/fotd-1/black-manse-back.png "front cover")
+![art:black-manse](/img/fotd-1/black-manse-back.png "front cover")
 {.half .float-left}
 
-![art:black-manse](/images/fotd-1/black-manse-front.png "back cover")
+![art:black-manse](/img/fotd-1/black-manse-front.png "back cover")
 {.half .float-right}
 
 ---
