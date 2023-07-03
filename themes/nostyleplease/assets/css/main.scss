@@ -69,20 +69,45 @@ li { margin: 0.4rem 0; }
 }
 
 .site-button {
-  display: block;
-  cursor: pointer;
+  display: flex;
+  cursor: crosshair;
   margin: 0 auto;
   outline: none;
   border: none;
-  background-color: #b9aec3;
+  background-color: rgba(184, 173, 194, 0.0);
   img {
     margin: 0 0;
     border-radius: 10px;
   }
 }
 
-.site-button:active {
-  transform: translateY(1px);
+.site-button:hover {
+  transform: perspective(25px) translateZ(1px);
+  -webkit-transform: perspective(25px) translateZ(1px);
+}
+
+.row {
+  display: flex;
+  flex-shrink: 0;
+  width: auto;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.other-buttons {
+  cursor: crosshair;
+  outline: none;
+  border: none;
+  background-color: rgba(184, 173, 194, 0.0);
+  img {
+    display: block;
+    margin: 0 0;
+  }
+}
+
+.other-buttons:hover {
+  transform: perspective(25px) translateZ(1px);
+  -webkit-transform: perspective(25px) translateZ(1px);
 }
 
 .buttondown {
@@ -165,6 +190,7 @@ a:visited {
 }
 
 a:hover {
+  cursor: crosshair;
   font-weight: bold;
   text-decoration: none;
 }
