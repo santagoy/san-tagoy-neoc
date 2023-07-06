@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://san-tagoy.neocities.org/wps/wps-intro/</loc>
+    <lastmod>2023-07-06T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://san-tagoy.neocities.org/wps/</loc>
+    <lastmod>2023-07-06T00:00:00+08:00</lastmod>
+  </url><url>
     <loc>https://san-tagoy.neocities.org/categories/</loc>
     <lastmod>2023-07-05T00:00:00+08:00</lastmod>
   </url><url>
@@ -81,9 +87,6 @@
     <lastmod>2023-06-29T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://san-tagoy.neocities.org/wps/wps-violence/</loc>
-    <lastmod>2023-06-29T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://san-tagoy.neocities.org/wps/</loc>
     <lastmod>2023-06-29T00:00:00+08:00</lastmod>
   </url>
 </urlset>
