@@ -2,28 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://san-tagoy.neocities.org/tags/adventure/</loc>
-    <lastmod>2023-07-01T00:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://san-tagoy.neocities.org/categories/</loc>
+    <lastmod>2023-07-05T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://san-tagoy.neocities.org/tags/combat/</loc>
+    <lastmod>2023-07-05T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://san-tagoy.neocities.org/tags/odnd/</loc>
+    <lastmod>2023-07-05T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://san-tagoy.neocities.org/posts/</loc>
+    <lastmod>2023-07-05T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://san-tagoy.neocities.org/tags/rules/</loc>
+    <lastmod>2023-07-05T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://san-tagoy.neocities.org/tags/</loc>
+    <lastmod>2023-07-05T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://san-tagoy.neocities.org/tags/thinking-adventures/</loc>
+    <lastmod>2023-07-05T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://san-tagoy.neocities.org/posts/thundering-steps/</loc>
+    <lastmod>2023-07-05T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://san-tagoy.neocities.org/categories/ttrpg/</loc>
+    <lastmod>2023-07-05T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://san-tagoy.neocities.org/tags/adventure/</loc>
     <lastmod>2023-07-01T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://san-tagoy.neocities.org/tags/on-itch/</loc>
     <lastmod>2023-07-01T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://san-tagoy.neocities.org/posts/</loc>
-    <lastmod>2023-07-01T00:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://san-tagoy.neocities.org/tags/promotions/</loc>
     <lastmod>2023-07-01T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://san-tagoy.neocities.org/tags/</loc>
-    <lastmod>2023-07-01T00:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://san-tagoy.neocities.org/posts/10-hm/</loc>
-    <lastmod>2023-07-01T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://san-tagoy.neocities.org/categories/ttrpg/</loc>
     <lastmod>2023-07-01T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://san-tagoy.neocities.org/posts/fotd-01/</loc>
@@ -35,9 +50,6 @@
     <loc>https://san-tagoy.neocities.org/categories/newsletter/</loc>
     <lastmod>2023-06-30T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://san-tagoy.neocities.org/tags/odnd/</loc>
-    <lastmod>2023-06-30T00:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://san-tagoy.neocities.org/posts/sages/</loc>
     <lastmod>2023-06-30T00:00:00+08:00</lastmod>
   </url><url>
@@ -45,9 +57,6 @@
     <lastmod>2023-06-30T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://san-tagoy.neocities.org/tags/tech/</loc>
-    <lastmod>2023-06-30T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://san-tagoy.neocities.org/tags/thinking-adventures/</loc>
     <lastmod>2023-06-30T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://san-tagoy.neocities.org/wps/wps-chargen/</loc>
