@@ -113,10 +113,13 @@ li { margin: 0.4rem 0; }
   text-align: center;
 }
 
-.toc {
-  border: thin solid #1d1d10;
-  padding: 1rem;
-}
+// .toc {
+//   border: thin solid #1d1d10;
+//   padding: 1rem;
+//   ul {
+//     list-style-type: none
+//   }
+// }
 
 hr {
   text-align: center;
@@ -132,7 +135,10 @@ pre {
   overflow-x: auto; /* Fix pre content overflowing parent without scroll bar */
 }
 
-table { width: 100%; }
+table {
+  width: 100%;
+  margin-bottom: 1em;
+}
 
 table, th, td {
   border: thin solid #1d1d10;
@@ -183,11 +189,11 @@ figcaption {
 
 a:link {
   text-decoration: none;
-  color: #7c6a00
+  color: #9f1900;
 }
 
 a:visited {
-  color: #9f1900;
+  color: #7c6a00;
 }
 
 a:hover {
@@ -198,7 +204,7 @@ a:hover {
 
 a:active {
   color: #b9aec3;
-  background-color: #9f1900;
+  background-color: #7c6a00;
   text-decoration: none;
 }
 
@@ -247,4 +253,10 @@ a:active {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 8px;
+}
+
+nav {
+  ul {
+    list-style: none;
+  }
 }

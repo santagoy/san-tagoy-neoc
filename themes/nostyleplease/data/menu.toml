@@ -46,3 +46,9 @@ title = "RPG RULES"
 
   [entries.entries.post_list]
   section = 'wps'
+
+  [[entries.entries]]
+  title = "Land to Blood"
+
+  [entries.entries.post_list]
+  section = 'land-to-blood'
