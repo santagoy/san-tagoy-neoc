@@ -9,11 +9,11 @@ date: 2023-09-11
 
 Currency? Backed by fucking what? There are semblances of it ever since the Landlords took control of factories. Bullets from them are like trickled down gold. Nonetheless, it's still hearkening back to what we've completely lost. Keeping up appearances in these times is asinine.
 
-Social credit's back since all we really got is our word that we'll repay at one point. If your word is shit, however, expect a boot to your neck in the foreseeable future.
+Social credit's back since all we really got is our word that we'll repay at one point. If your word is shit, however, expect fists to your face in the foreseeable future.
 
 ## Scarcity
 
-One's trash is another one's treasure as they say. Here, items in demand have tiers of scarcity: common -> valuable -> rare. These are more guidelines to understand what the average Juan expects to get from these items.
+Here, items in demand have tiers of scarcity: common -> valuable -> rare. These are more guidelines to understand what the average Juan expects to get from these items.
 
 ## Blades
 
