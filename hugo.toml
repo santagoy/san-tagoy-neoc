@@ -1,4 +1,4 @@
-baseURL = 'https://san-tagoy.neocities.org/'
+# baseURL = 'https://san-tagoy.neocities.org/'
 languageCode = 'en-us'
 title = 'Getting Better'
 theme = 'platen'
