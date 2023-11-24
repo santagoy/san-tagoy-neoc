@@ -1,0 +1,4 @@
+columns: 1
+button:
+  placement: below
+  label: Roll on the list

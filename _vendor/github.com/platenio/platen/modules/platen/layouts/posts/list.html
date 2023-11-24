@@ -1,0 +1,11 @@
+{{ define "main" }}
+  {{ range $Post := sort page.Paginator.Pages }}
+    {{ partial "platen/post/listEntry" $Post }}
+  {{ end }}
+
+  {{ template "_internal/pagination.html" page }}
+{{ end }}
+
+{{ define "toc" }}
+  {{ partial "platen/taxonomy" }}
+{{ end }}

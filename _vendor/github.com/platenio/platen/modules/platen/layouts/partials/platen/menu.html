@@ -1,0 +1,35 @@
+<nav>
+  {{ partial "platen/menu/brand" page }}
+
+  {{ partial "platen/features/search/menu" page }}
+
+  {{ if site.IsMultiLingual }}
+    {{ partial "platen/menu/languages" page }}
+  {{ end }}
+
+  {{ partial "platen/menu/display" }}
+
+  {{ partial "platen/menu/feature" (dict "Context" page "Position" "before_injection") }}
+
+  {{ partial "platen/inject/menu-before" page }}
+
+  {{ partial "platen/menu/feature" (dict "Context" page "Position" "before_hugo_config") }}
+
+  {{ partial "platen/menu/hugo" site.Menus.before }}
+
+  {{ partial "platen/menu/feature" (dict "Context" page "Position" "before_root_section") }}
+
+  {{ partial "platen/menu/filetree" page }}
+
+  {{ partial "platen/menu/feature" (dict "Context" page "Position" "after_root_section") }}
+
+  {{ partial "platen/menu/hugo" site.Menus.after }}
+
+  {{ partial "platen/menu/feature" (dict "Context" page "Position" "after_hugo_config") }}
+
+  {{ partial "platen/inject/menu-after" page }}
+
+  {{ partial "platen/menu/feature" (dict "Context" page "Position" "after_injection") }}
+</nav>
+
+{{ partial "platen/menu/reset" page }}

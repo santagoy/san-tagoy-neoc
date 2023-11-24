@@ -1,0 +1,525 @@
+platen:
+  theme:
+    mode: auto
+    variables:
+      basic_scss:
+        padding-minimal: 1px
+        padding-small: 0.25rem
+        padding-medium: 0.5rem
+        padding-large: 1rem
+        font-size-base: 16px
+        font-size-small: 0.75rem
+        font-size-medium: 0.875rem
+        font-size-full: 1rem
+        body-font-weight: normal
+        body-min-width: 20rem
+        container-max-width: 80rem
+        header-height: 3.5rem
+        menu-width: 16rem
+        toc-width: 16rem
+        details-colors:
+          info: "#6bf"
+          warning: "#fd6"
+          danger: "#f66"
+      calculated_scss:
+        border-radius: $padding-small
+        mobile-breakpoint: $menu-width + $body-min-width * 1.2 + $toc-width
+      light_css:
+        gray-100: "#f8f9fa"
+        gray-200: "#e9ecef"
+        gray-500: "#adb5bd"
+        color-link: "#0055bb"
+        color-visited-link: "#8440f1"
+        body-background: white
+        body-font-color: black
+        icon-filter: none
+      dark_css:
+        gray-100: rgba(255, 255, 255, 0.1)
+        gray-200: rgba(255, 255, 255, 0.2)
+        gray-500: rgba(255, 255, 255, 0.5)
+        color-link: "#84b2ff"
+        color-visited-link: "#b88dff"
+        body-background: "#343a40"
+        body-font-color: "#e9ecef"
+        icon-filter: brightness(0) invert(1)
+      custom_css: {}
+    styles:
+      base:
+        html:
+          enabled: true
+        body:
+          enabled: true
+        headings:
+          enabled: true
+        links:
+          enabled: true
+        images:
+          enabled: true
+        focus:
+          enabled: true
+        navigation:
+          enabled: true
+        pagination:
+          enabled: true
+        containers:
+          enabled: true
+      platen:
+        icon:
+          enabled: true
+        brand:
+          enabled: true
+        menu:
+          enabled: true
+        page:
+          enabled: true
+        post:
+          enabled: true
+        header:
+          enabled: true
+        search:
+          enabled: true
+        table_of_contents:
+          enabled: true
+        footer:
+          enabled: true
+        comments:
+          enabled: true
+        languages:
+          enabled: true
+        responsiveness:
+          enabled: true
+      shoelace:
+        icons:
+          enabled: true
+        utils:
+          enabled: true
+      mobile:
+        header:
+          enabled: true
+        menu:
+          enabled: true
+        table_of_contents:
+          enabled: true
+      wide:
+        padding:
+          enabled: true
+      markdown:
+        page:
+          enabled: true
+        headings:
+          enabled: true
+        links:
+          enabled: true
+        bold:
+          enabled: true
+        paragraphs:
+          enabled: true
+        images:
+          enabled: true
+        code:
+          enabled: true
+        blockquotes:
+          enabled: true
+        tables:
+          enabled: true
+        lists:
+          enabled: true
+        rulers:
+          enabled: true
+        figure:
+          enabled: true
+        inner:
+          enabled: true
+      utils:
+        basic:
+          enabled: true
+        toggle:
+          enabled: true
+        clearfix:
+          enabled: true
+        spin:
+          enabled: true
+        fixed:
+          enabled: true
+        outline:
+          enabled: true
+    fonts:
+      styles:
+        - import_name: roboto
+      settings:
+        body:
+          selector: body
+          family: "'Roboto', sans-serif"
+        code:
+          selector: code
+          family: "'Roboto Mono', monospace"
+    printing:
+      styles:
+        basic:
+          enabled: true
+  display:
+    table_of_contents:
+      minimum_level: 2
+      maximum_level: 4
+      render:        true
+      # indentation:
+      #   size: 1rem
+      #   guide_color: green
+      #   guide_offset: 0
+      #   guide_style: solid
+      #   guide_width: 3px
+      # collapse_icon: dash-square
+      # expand_icon:   plus-square
+      use_legacy: true
+    date_format: "January 2, 2006"             # BookDateFormat
+    header:
+      title_as_heading: false
+    menu:
+      root_section:   /                        # BookSection
+      languages_icon:
+        name:           translate@builtin_bootstrap
+        use_legacy:     true
+      theme_options:
+        enabled: false
+        mode_selection:
+          enabled:  false
+          template: default
+    mobile:
+      menu_control:
+        name:  list@builtin_bootstrap
+        label: i18n!menu_control
+        tooltip:
+          placement: right
+        use_legacy: true
+      toc_control:
+        use_legacy: true
+        name: list-columns@builtin_bootstrap
+        label: i18n!toc_control
+        tooltip:
+          placement: left
+    footer:
+      last_edited_on: # button
+        enabled: true
+        prefix_icon:
+          name: calendar-fill@builtin_bootstrap
+        variant: text
+        show_elapsed: true
+        use_legacy: true
+      edit_this_page: #button
+        enabled: true
+        prefix_icon:
+          name: pencil-fill@builtin_bootstrap
+        variant: text
+        use_legacy: true
+  features:
+    search:                                   # booksearch
+      enabled:    true
+      use_legacy: true
+      partials:
+        header: platen/features/search/header
+    comments:                                 # bookcomments
+      enabled: false
+    pwa:                                      # bookserviceworker
+      enabled: true
+      partials:
+        header: platen/features/pwa/header
+    portable_links:                            # BookPortableLinks
+      enabled: true
+    alpine:
+      enabled:     true
+      always_load: false
+      version:     3.12.0
+      partials:
+        header: platen/features/alpine/header
+    shoelace:
+      enabled:     true
+      always_load: true
+      version:     2.4.0
+      icons:
+        default_library: builtin_bootstrap
+        always_load_libraries: []
+        libraries:
+          builtin_bootstrap:
+            enabled: true
+          boxicons:
+            enabled: true
+            aliases:
+              - box
+            version: 2.0.5
+            default_variant: regular
+            variants:
+              regular: bx
+              solid:   bxs
+              logos:   bxl
+            registration:
+              script: boxicons.js
+          font_awesome:
+            enabled: true
+            aliases:
+              - fa
+            version: 5.15.1
+            default_variant: regular
+            variants:
+              regular: far
+              solid:   fas
+              brands:  fab
+            registration:
+              script: font_awesome.js
+          heroicons:
+            enabled: true
+            aliases:
+              - hero
+            version: 2.0.1
+            default_variant: outline
+            variants:
+              outline: 24/outline
+              solid:   24/solid
+              mini:    20/solid
+            registration:
+              script: heroicons.js
+          iconoir:
+            enabled: true
+            version: latest
+            registration:
+              script: iconoir.js
+          ionicons:
+            enabled: true
+            aliases:
+              - ion
+            version: 5.1.2
+            default_variant: outline
+            variants:
+              outline: ''
+              filled:  -filled
+              sharp:   -sharp
+            registration:
+              script: ionicons.js
+          jam_icons:
+            enabled: true
+            aliases:
+              - jam
+            version: 2.0.0
+            default_variant: regular
+            variants:
+              regular: ''
+              filled:  '-f'
+            registration:
+              script: jam_icons.js
+          lucide:
+            enabled: true
+            version: latest
+            registration:
+              script: lucide.js
+          material_icons:
+            enabled: true
+            aliases:
+              - material
+            version: 1.0.5
+            default_variant: outline
+            variants:
+              - outline
+              - round
+              - sharp
+            registration:
+              script: material_icons.js
+          remix_icon:
+            enabled: true
+            aliases:
+              - remix
+            version: 2.5.0
+            default_category: system
+            default_variant: line
+            variants:
+              - line
+              - fill
+            categories:
+              - buildings
+              - business
+              - communication
+              - design
+              - development
+              - device
+              - document
+              - editor
+              - finance
+              - health
+              - logos
+              - map
+              - media
+              - others
+              - system
+              - user
+              - weather
+            registration:
+              script: remix_icon.js
+          tabler_icons:
+            enabled: true
+            aliases:
+              - tabler
+            version: 1.68.0
+            registration:
+              script: tabler_icons.js
+          unicons:
+            enabled: true
+            version: 3.0.3
+            default_variant: line
+            variants:
+              line: ''
+              solid: 's'
+            registration:
+              script: unicons.js
+      partials:
+        header: platen/features/shoelace/header
+  markup:
+    alerts:
+      enabled: true
+      custom: false
+      # preset: null
+      classes: []
+      variant: primary
+      icons:
+        danger:  exclamation-octagon@builtin_bootstrap
+        default: gear@builtin_bootstrap
+        primary: info-circle@builtin_bootstrap
+        success: check2-circle@builtin_bootstrap
+        warning: exclamation-triangle@builtin_bootstrap
+      use_default_icons: true
+      partials:
+        renderers:
+          codeblock: platen/markup/alerts/codeblock
+      style: alerts
+    art:
+      enabled: true
+      partials:
+        renderers:
+          image: platen/markup/art/image
+      style: art
+    buttons:
+      enabled: true
+      classes: []
+      # size: null
+      # outline: null
+      # pill: null
+      # variant: null
+      use_legacy: true
+      warn_on_legacy: true
+      partials:
+        renderers:
+          image: platen/markup/buttons/image
+      style: buttons
+    code_snippets:
+      enabled: true
+      partials:
+        renderers:
+          image: platen/markup/code_snippets/image
+    columns:
+      enabled: true
+      partials:
+        renderers:
+          codeblock: platen/markup/columns/codeblock
+      style: columns
+    details:
+      enabled: true
+      custom: false
+      classes: []
+      # icons:
+      #   collapse: null
+      #   expand: null
+      linkable: true
+      open: true
+      use_legacy: true
+      warn_on_legacy: true
+      partials:
+        renderers:
+          codeblock: platen/markup/details/codeblock
+      style: details
+    icons:
+      enabled: true
+      custom: false
+      classes: []
+      # default_icon: "foo"
+      # default_library: heroicons
+      partials:
+        renderers:
+          image: platen/markup/icons/image
+    itch:
+      enabled:  true
+      dark:     false
+      linkback: false
+      square:   false
+      partials:
+        renderers:
+          image: platen/markup/itch/image
+    katex:
+      enabled:     true
+      always_load: false
+      version:     0.16.4
+      partials:
+        header: platen/markup/katex/header
+        renderers:
+          codeblock: platen/markup/katex/codeblock
+          image: platen/markup/katex/image
+    key_combos:
+      enabled: true
+      partials:
+        renderers:
+          image: platen/markup/key_combos/image
+      style: key_combos
+    mermaid:
+      enabled: true
+      version: 10.0.2
+      container: pre
+      partials:
+        header: platen/markup/mermaid/header
+        renderers:
+          codeblock: platen/markup/mermaid/codeblock
+    rolls:
+      enabled: true
+      partials:
+        renderers:
+          codeblock: platen/markup/rolls/codeblock
+          image:     platen/markup/rolls/image
+        header: platen/markup/rolls/header
+      style: rolls
+    section:
+      enabled: true
+      partials:
+        renderers:
+          codeblock: platen/markup/section/codeblock
+      style: section
+    tabs:
+      enabled: true
+      custom: false
+      classes: []
+      activation: auto
+      no_scroll_controls: false
+      placement: top
+      standardize_height: false
+      # preset: null
+      use_legacy: true
+      warn_on_legacy: true
+      partials:
+        header: platen/markup/tabs/header
+        renderers:
+          codeblock: platen/markup/tabs/codeblock
+      style: tabs
+    styled_text:
+      enabled: true
+      partials:
+        renderers:
+          image: platen/markup/styled_text/image
+    subscripts:
+      enabled: true
+      partials:
+        renderers:
+          image: platen/markup/subscripts/image
+    superscripts:
+      enabled: true
+      partials:
+        renderers:
+          image: platen/markup/superscripts/image
+  repository:
+    commit_path: commit                        # BookCommitPath
+    edit_path: edit/main                       # BookEditPath
+  multilingual:                               # BookTranslatedOnly
+    translated_only: false

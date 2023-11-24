@@ -1,0 +1,16 @@
+.markdown {
+  blockquote {
+    margin: $padding-large 0;
+    padding: $padding-medium $padding-large $padding-medium ($padding-large - $padding-small); //to keep total left space 16dp
+
+    border-inline-start: $padding-small solid var(--gray-200);
+    border-radius: $border-radius;
+
+    :first-child {
+      margin-top: 0;
+    }
+    :last-child {
+      margin-bottom: 0;
+    }
+  }
+}

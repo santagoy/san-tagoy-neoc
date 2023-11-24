@@ -1,0 +1,15 @@
+{{- $SearchConfig := partial "platen/param/resolve" (
+      dict "Config"  "platen.features.search"
+           "Default" true
+    )
+-}}
+
+{{- if $SearchConfig.enabled }}
+<div class="platen-search">
+  {{ if $SearchConfig.use_legacy -}}
+    {{- partial "platen/features/search/menu/legacy" -}}
+  {{- else -}}
+    {{- partial "platen/features/search/menu/default" -}}
+  {{- end }}
+</div>
+{{- end }}

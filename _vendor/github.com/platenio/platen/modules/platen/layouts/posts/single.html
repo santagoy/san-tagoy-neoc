@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <article class="markdown">
+    {{ partial "platen/post/title"       page }}
+    {{ partial "platen/utils/posts/meta" page }}
+    {{- page.Content -}}
+  </article>
+{{ end }}
+
+{{ define "toc" }}
+  {{ partial "platen/toc" }}
+{{ end }}

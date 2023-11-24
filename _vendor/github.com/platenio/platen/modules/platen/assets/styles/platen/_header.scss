@@ -1,0 +1,32 @@
+.platen-header {
+  margin-bottom: $padding-large;
+
+  label {
+    line-height: 0;
+  }
+
+  img.platen-icon {
+    height: 1.5em;
+    width: 1.5em;
+  }
+}
+
+.platen-header:has(strong) {
+  display: none;
+}
+
+.platen-header:has(h1) {
+  label {
+    display: none;
+  }
+}
+
+.platen-header {
+  @supports (-moz-appearance:none) {
+    h1 {
+      @at-root label {
+        display: none;
+      }
+    }
+  }
+}

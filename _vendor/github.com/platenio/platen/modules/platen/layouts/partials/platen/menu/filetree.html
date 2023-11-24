@@ -1,0 +1,92 @@
+{{/*
+    Partial: menu/filetree
+
+    This partial recursively renders nav list entries for the site menu from the
+    configured root section.
+
+    It only adds pages to the nav menu if they don't have `platen.menu.hide` 
+    set to `false in their front matter.
+
+    For section pages, it handles whether the section should be displayed in
+    the default format (children indented), as a flat section (section entry
+    bold, children not indented), or a collapsible section (click to expand or
+    collapse the section).
+
+    Every non-hidden page with content is added as a link in the nav menu. Leaf
+    pages without content are ignored. Section pages without content are added
+    but not linked.
+*/}}
+{{- $ConfigKey     := "platen.display.menu"                                     -}}
+{{- $MenuConfig    := partialCached "platen/param/getKey" $ConfigKey $ConfigKey -}}
+{{- $PlatenSection := $MenuConfig.root_section | default "/"                    -}}
+{{- if eq $PlatenSection "*" -}}
+  {{- $PlatenSection = "/" -}}{{/* Backward compatibility */}}
+{{- end }}
+
+{{ with site.GetPage $PlatenSection }}
+  {{- $Section := . -}}
+  {{ template "platen-section-children" $Section }}
+{{ end }}
+
+{{ define "platen-section-children" }}
+  {{- $Section := . -}}
+  <ul>
+    {{ range $ChildPage := (where $Section.Pages "Params.platen.menu.hide" "ne" true) }}
+      {{ if $ChildPage.IsSection }}
+        <li {{- if $ChildPage.Params.platen.menu.flatten_section }} class="platen-section-flat" {{ end -}}>
+          {{ template "platen-page-link"        $ChildPage }}
+          {{ template "platen-section-children" $ChildPage }}
+        </li>
+      {{ else if $ChildPage.IsPage }}
+        <li>
+          {{ template "platen-page-link" $ChildPage }}
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+{{ end }}
+
+{{ define "platen-page-link" }}
+  {{- $EntryPage           := .                                                -}}
+  {{- $RawContent          := trim $EntryPage.RawContent "\n\r\t "             -}}
+  {{- $FrontMatterOnly     := eq 1 (len (findRE `(?s)^---.+---$` $RawContent)) -}}
+  {{- $EmptyContent        := eq (len $RawContent) 0                           -}}
+  {{- $HasContent          := not (or $FrontMatterOnly $EmptyContent)          -}}
+  {{- $IsCurrentPage       := eq page $EntryPage                               -}}
+  {{- $IsAncestorPage      := $EntryPage.IsAncestor page                       -}}
+  {{- $IsAncestorOrCurrent := or $IsCurrentPage $IsAncestorPage                -}}
+  {{/*  Define partials for easier reuse/maintenance  */}}
+  {{- $getSafeAttributes  := "platen/utils/getSafeAttributes" -}}
+  {{- $getTitle           := "platen/utils/getTitle"          -}}
+  {{- $getDisplayTitle    := "platen/utils/getDisplayTitle"   -}}
+  {{/*  Get the title text  */}}
+  {{- $titleParams := dict "Context" $EntryPage "ForMenu" true  -}}
+  {{- $titleText   := partial $getTitle $titleParams            -}}
+  {{- $titleParams  = dict "Page" $EntryPage "Title" $titleText -}}
+  {{- $titleText    = partial $getDisplayTitle $titleParams     -}}
+  {{/*  Determine whether the link is for the active page active  */}}
+  {{- $LinkClassAttribute  := cond $IsCurrentPage `class="active"` "" | safeHTMLAttr -}}
+
+  {{ if $EntryPage.Params.platen.menu.collapse_section }}
+    {{- $SectionID := printf "section-%s" (md5 $EntryPage) | safeHTMLAttr -}}
+
+    <input type="checkbox"
+           id="{{ $SectionID }}"
+           class="toggle" {{ if $IsAncestorOrCurrent }} checked {{ end }} />
+    <label for="{{ $SectionID }}" class="flex justify-between">
+      <a {{ $LinkClassAttribute }} {{ if $HasContent -}}
+            href="{{ $EntryPage.Permalink }}"
+          {{- else -}}
+            role="button"
+          {{- end }}>
+        {{- $titleText -}}
+      </a>
+    </label>
+  {{ else if $HasContent }}
+    <a {{ $LinkClassAttribute }} href="{{ $EntryPage.Permalink }}">
+      {{- $titleText -}}
+    </a>
+  {{ else }}
+    <span>{{- $titleText -}}</span>
+  {{ end }}
+{{ end }}

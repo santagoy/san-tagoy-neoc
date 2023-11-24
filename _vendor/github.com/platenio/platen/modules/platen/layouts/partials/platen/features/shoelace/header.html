@@ -1,0 +1,41 @@
+{{- $IntegrityPartial := "platen/utils/getIntegrityAttributes"                     -}}
+{{- $ConfigKey        := "platen.features.shoelace"                                -}}
+{{- $ShoelaceConfig   := partialCached "platen/param/getKey" $ConfigKey $ConfigKey -}}
+{{- $LoadShoelace     := page.Store.Get "_hasShoelace"
+    | default page.Params.platen.features.shoelace.always_load
+    | default $ShoelaceConfig.always_load
+-}}
+
+{{- if $LoadShoelace -}}
+  {{/* Get the Shoelace URLs to use */}}
+  {{- $Version       := $ShoelaceConfig.version | default "2.3.0"                          -}}
+  {{- $UrlPrefix     := "https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace"            -}}
+  {{- $LibraryUrl    := printf "%s@%v/dist/shoelace.js"                $UrlPrefix $Version -}}
+  {{- $ScriptName    := "scripts/features/shoelace/modeSwap.js"                            -}}
+
+  {{/* Initialize the slice of strings to render */}}
+  {{- $renderStrings := slice -}}
+
+  {{/* Get the Shoelace library script */}}
+  {{- $libraryAttributes := slice `type="module"` (printf `src="%s"` $LibraryUrl) -}}
+  {{- $libraryAttributes  = delimit $libraryAttributes " "                        -}}
+  {{- $Library           := printf "<script %s></script>" $libraryAttributes      -}}
+  {{- $renderStrings      = $renderStrings | append $Library                      -}}
+
+  {{/*  Handle light/dark mode  */}}
+  {{- $ScriptResource   :=  resources.Get $ScriptName
+      | resources.ExecuteAsTemplate "scripts/shoelace/modeSwap.js" .
+      | resources.Fingerprint
+  -}}
+  {{- $ScriptIntegrity  := partialCached $IntegrityPartial $ScriptResource "ShoelaceModeSwap"      -}}
+  {{- $scriptAttributes := slice (printf `src="%s"` $ScriptResource.RelPermalink) $ScriptIntegrity -}}
+  {{- $scriptAttributes  = delimit $scriptAttributes " "                                           -}}
+  {{- $Script           := printf "<script %s></script>" $scriptAttributes                         -}}
+  {{- $renderStrings     = $renderStrings | append $Script                                         -}}
+
+  {{/* Render */}}
+  {{- delimit $renderStrings "\n" | safeHTML -}}
+
+  {{/*  Load icon libraries as needed  */}}
+  {{- partial "platen/features/shoelace/icons" -}}
+{{- end }}

@@ -1,0 +1,37 @@
+{{- $Input            := .                                             -}}
+{{- $Key              := "platen.features.portable_links.enabled"      -}}
+{{- $UsePortableLinks := partialCached "platen/param/getKey" $Key $Key -}}
+
+{{- if $UsePortableLinks -}}
+  {{- template "portable-image" $Input -}}
+{{- else -}}
+  {{- $Src   := $Input.Destination | safeURL      -}}
+  {{- $Alt   := $Input.Text        | safeHTMLAttr -}}
+  {{- $Title := $Input.Title       | safeHTMLAttr -}}
+  <img src="{{ $Src }}" alt="{{ $Alt }}" {{- with $Title }} title="{{ $Title }}" {{- end }}/>
+{{- end -}}
+
+{{- define "portable-image" -}}
+  {{- $Input       := .                                                                -}}
+  {{- $Destination := $Input.Destination                                               -}}
+  {{- $Alt         := $Input.Text        | safeHTMLAttr                                -}}
+  {{- $Title       := $Input.Title       | safeHTMLAttr                                -}}
+  {{- $File        := $Input.Page.File                                                 -}}
+  {{- $IsRemote    := or (in $Destination "://") (strings.HasPrefix $Destination "//") -}}
+
+  {{- if not $IsRemote }}
+    {{- $path := print $File.Dir $Destination }}
+    {{- if strings.HasPrefix $Destination "/" }}
+      {{- $path = print "/static" $Destination }}
+    {{- end }}
+
+    {{- if not (fileExists $path) }}
+      {{- warnf "Image '%s' not found in '%s'" $Destination $File }}
+    {{- end }}
+  {{- end }}
+
+  {{/*  Seems like we should munge here, but we didn't before the refactor.  */}}
+  {{- $Src := $Destination | safeURL -}}
+
+  <img src="{{ $Src }}" alt="{{ $Alt }}" {{- with $Title }} title="{{ $Title }}"{{- end }}/>
+{{- end -}}

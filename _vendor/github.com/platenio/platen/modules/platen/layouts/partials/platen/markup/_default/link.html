@@ -1,0 +1,16 @@
+{{- $Input            := .                                             -}}
+{{- $href             := $Input.Destination | safeURL                  -}}
+{{- $Text             := $Input.Text        | safeHTML                 -}}
+{{- $Title            := $Input.Title       | safeHTMLAttr             -}}
+{{- $Key              := "platen.features.portable_links.enabled"      -}}
+{{- $UsePortableLinks := partialCached "platen/param/getKey" $Key $Key -}}
+
+{{- if $UsePortableLinks -}}
+  {{- $href = partial "platen/utils/mungePortableLinkDestination" $Input -}}
+{{- end -}}
+
+<a href="{{ $href }}" {{- with $Title }} title="{{ $Title }}" {{- end }}>
+  {{- trim $Text " \n" | safeHTML -}}
+</a>
+
+{{- $_ := "just to trim whitespace" -}}

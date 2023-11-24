@@ -1,0 +1,15 @@
+{{- $Params   := .                -}}
+{{- $Name     := $Params.Name     -}}
+{{- $Settings := $Params.Settings -}}
+
+{{/* Initialize the slice of strings to render */}}
+{{- $renderStrings := slice -}}
+
+{{/*  Currently only supports naive import with no handling  */}}
+{{- with $Settings.style }}
+  {{- $ImportLine   := printf `@import "markup/%s";` $Settings.style -}}
+  {{- $renderStrings = $renderStrings | append $ImportLine           -}}
+{{ end }}
+
+{{/*  Return the SCSS to render  */}}
+{{- delimit $renderStrings "\n" | safeHTML -}}

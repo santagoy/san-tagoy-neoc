@@ -1,0 +1,43 @@
+{{- $PlatenConfig := partialCached "platen/param/getKey" "platen" "platen" -}}
+{{- partial  "platen/param/checkShortcodes" page -}}
+
+{{ partial  "platen/htmlHead/meta"     page }}
+{{ template "_internal/opengraph.html" page }}
+
+<title>
+  {{ partial "platen/utils/getHtmlHeadTitle" page }}
+</title>
+
+{{ partial "platen/htmlHead/faviconLink" page }}
+
+{{- range $TranslatedPage := page.Translations }}
+  {{ partial "platen/htmlHead/translationLink" $TranslatedPage }}
+{{- end -}}
+
+{{ partial "platen/htmlHead/siteStyleLink" page }}
+
+{{ partialCached "platen/htmlHead/siteModuleScript" "cache" "cache" }}
+
+{{ range $Feature, $Settings := $PlatenConfig.features -}}
+  {{- if $Settings.enabled -}}
+    {{- with $Settings.partials.header -}}
+      {{ partial $Settings.partials.header page }}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{ range $Feature, $Settings := $PlatenConfig.markup -}}
+  {{- if $Settings.enabled -}}
+    {{- with $Settings.partials.header -}}
+      {{ partial $Settings.partials.header page }}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{ partialCached "platen/htmlHead/tocScript" "cache" "cache" }}
+
+{{- template "_internal/google_analytics.html" page -}}
+
+{{ partial "platen/htmlHead/rssLink" }}
+
+{{ "<!--" | safeHTML }} Made with Platen https://platen.io {{ "-->" | safeHTML }}

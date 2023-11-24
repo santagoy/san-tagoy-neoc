@@ -1,0 +1,30 @@
+<!--
+  This is template for hugo menus, accepts MenuEntity as context
+  https://gohugo.io/variables/menus/
+-->
+{{- $HugoMenuConfigEntries := . -}}
+{{- if $HugoMenuConfigEntries -}}
+  {{ template "platen-menu-hugo" $HugoMenuConfigEntries }}
+{{- end -}}
+
+{{ define "platen-menu-hugo" }}
+{{- $HugoMenuConfigEntries := . -}}
+<ul class="platen-section-flat">
+  {{ range $Entry := $HugoMenuConfigEntries }}
+  <li>
+    <a href="{{ $Entry.URL }}" {{ if not $Entry.Page }}target="_blank" rel="noopener"{{ end }}>
+      {{- $Entry.Pre -}}
+      {{ with $Entry.Page }}
+        {{ partial "platen/utils/getTitle" (dict "Context" $Entry.Page "ForMenu" true) }}
+      {{ else }}
+        {{ $Entry.Name }}
+      {{ end }}
+      {{- $Entry.Post -}}
+    </a>
+    {{- with $Entry.Children }}
+      {{ template "platen-menu-hugo" $Entry }}
+    {{- end }}
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

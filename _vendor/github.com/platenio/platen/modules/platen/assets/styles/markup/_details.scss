@@ -1,0 +1,52 @@
+.markdown sl-details.platen-details {
+  // Ensure the summary element doesn't have vertical margins to keep the
+  // height standard.
+  [slot="summary"] > * {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.markdown {
+  details {
+    padding: $padding-large;
+    border: $padding-minimal solid var(--gray-200);
+    border-radius: $border-radius;
+
+    summary {
+      line-height: 1;
+      padding: $padding-large;
+      margin: -$padding-large;
+      list-style: none;
+
+      cursor: pointer;
+      > * {
+        display: inline-block;
+        margin: 0;
+      }
+
+      &::after {
+        float: right;
+        content: "+";
+      }
+    }
+
+    &[open] summary {
+      margin-bottom: 0;
+      &::after {
+        content: "-";
+      }
+    }
+
+    @each $name, $color in $details-colors {
+      &.#{$name} {
+        border-color: $color;
+        background-color: rgba($color, 0.1);
+      }
+    }
+  }
+}
+
+body[dir="rtl"] .markdown details summary::after {
+  float: left;
+}

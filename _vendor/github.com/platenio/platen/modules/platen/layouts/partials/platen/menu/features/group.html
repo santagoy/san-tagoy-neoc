@@ -1,0 +1,58 @@
+{{- $Params      := .                                                          -}}
+{{- $Context     := $Params.Context  | default $Params.context                 -}}
+{{- $Entries     := $Params.Entries  | default $Params.entries                 -}}
+{{- $group       := $Params.Group    | default $Params.group                   -}}
+{{- $Position    := $Params.Position | default $Params.position                -}}
+{{- $TopLevel    := $Params.TopLevel | default $Params.topLevel | default true -}}
+{{- $class       := $group.Class     | default $group.class                    -}}
+{{- $Name        := $group.Name      | default $group.name                     -}}
+
+{{- with $Name -}}
+  {{- with $Entries -}}
+    {{- with $class -}}
+      {{- $class = printf ` class="%s"` $class -}}
+    {{- end -}}
+    {{/* Top-level groups are added in their own unordered list; others are already in one. */}}
+    {{- if $TopLevel -}}
+      <ul{{ $class | safeHTMLAttr }}>
+        {{ partial "platen/menu/list-item" (merge $group (dict "Position" $Position)) }}
+        <ul>
+          {{ partial "platen/menu/features/entries" $Params }}
+        </ul>
+      </ul>
+    {{- else -}}
+      {{ partial "platen/menu/list-item" (merge $group (dict "Position" $Position)) }}
+      <ul {{ $class | safeHTMLAttr }}>
+        {{ partial "platen/menu/features/entries" $Params }}
+      </ul>
+    {{- end -}}
+  {{- else -}}
+    {{- warnf "Specified group '%s' for position %s without any entries; skipping this group."
+              $Name
+              $Position
+    -}}
+  {{- end -}}
+{{- else -}}
+  {{/*
+    If the 'name' key isn't defined and 'group' isn't a map or slice, assume the value is the name of
+    the group and recall the partial.
+  */}}
+  {{- if reflect.IsMap $group -}}
+    {{- errorf "Specified group as a map without mandatory key 'name' for position %s: %#v" $Position $group -}}
+  {{- else if reflect.IsSlice $group -}}
+    {{- errorf "%s. %s. Definition: %#v"
+               (printf "Specified Group as an array for position %s" $Position)
+               "Must be a map with the key 'name' defined or a string"
+               $group
+    -}}
+  {{- else -}}
+    {{- $group = dict "name" (print $group) -}}
+    {{- $MungedParams := dict "Context"     $Context
+                              "class"       $class
+                              "entries"     $Entries
+                              "group"       $group
+                              "position"    $Position
+    -}}
+    {{- partial "platen/menu/features/group" $MungedParams -}}
+  {{- end  -}}
+{{- end  -}}

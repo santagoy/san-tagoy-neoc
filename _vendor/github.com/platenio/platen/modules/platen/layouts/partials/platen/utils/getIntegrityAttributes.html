@@ -1,0 +1,10 @@
+{{- $Resource        := .  -}}
+{{- $attributeString := "" -}}
+
+{{- if (urls.Parse $Resource.Permalink).Host -}}
+    {{- $Integrity      := printf `integrity="%s"` $Resource.Data.Integrity -}}
+    {{- $CrossOrigin    := `crossorigin="anonymous"`                        -}}
+    {{- $attributeString = printf " %s %s" $Integrity $CrossOrigin          -}}
+{{- end -}}
+
+{{- return ($attributeString | safeHTMLAttr) -}}

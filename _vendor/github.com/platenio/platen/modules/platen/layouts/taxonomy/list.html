@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <article class="markdown">
+    <h1>{{ page.Title | title }}</h1>
+    {{ $Taxonomies := index site.Taxonomies page.Type }}
+    {{ range $Taxonomy := $Taxonomies }}
+      {{- $Href  := $Taxonomy.Page.Permalink -}}
+      {{- $Title := $Taxonomy.Page.Title     -}}
+      {{- $Count := $Taxonomy.Count          -}}
+      <div>
+        <a href="{{ $Href }}">{{ $Title }} <sup>{{ $Count }}</sup></a>
+      </div>
+    {{ end }}
+  </article>
+{{ end }}
+
+{{ define "toc" }}
+  {{ partial "platen/taxonomy" }}
+{{ end }}

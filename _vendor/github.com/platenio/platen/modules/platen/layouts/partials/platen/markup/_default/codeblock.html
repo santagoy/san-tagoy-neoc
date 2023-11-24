@@ -1,0 +1,10 @@
+{{- $Input      := .              -}}
+{{- $Definition := $Input.Inner   -}}
+{{- $Type       := $Input.Type    -}}
+{{- $Options    := $Input.Options -}}
+
+{{- with $Options -}}
+  {{- highlight $Definition $Type $Options -}}
+{{- else -}}
+  {{- highlight $Definition $Type -}}
+{{- end -}}

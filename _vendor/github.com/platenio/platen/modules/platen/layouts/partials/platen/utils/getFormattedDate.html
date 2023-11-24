@@ -1,0 +1,13 @@
+{{/*
+  Returns formatted date.
+  Usage: partial "platen/utils/getFormattedDate" (dict "Date" .Date "Format" site.Params.display.date_format)
+*/}}
+{{- $Params := .                                          -}}
+{{- $Date   := $Params.Date                               -}}
+{{- $Format := $Params.Format | default "January 2, 2006" -}}
+
+{{/*  Use the Format func on the date object to format it  */}}
+{{- $FormattedDate := $Date.Format $Format -}}
+
+{{/*  Rerutn the formatted date to the caller as a string  */}}
+{{- return $FormattedDate -}}
