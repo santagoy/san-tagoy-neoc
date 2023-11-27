@@ -1,0 +1,387 @@
+{
+  "$schema": "https://beta.frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.extends": [
+    "https://platen.io/frontmatter/platen.json"
+  ],
+  "frontMatter.site.baseURL": "https://san-tagoy.neocities.org/",
+  "frontMatter.taxonomy.tags": [],
+  "frontMatter.taxonomy.categories": [],
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "fields": [
+        {
+          "name": "title",
+          "single": true,
+          "title": "Title",
+          "type": "string"
+        },
+        {
+          "description": "Used as the title for this page when included in a list, like the section shortcode.",
+          "name": "linktitle",
+          "single": true,
+          "title": "Link Title",
+          "type": "string"
+        },
+        {
+          "description": "Displayed when paginated or in a list and as page description",
+          "name": "summary",
+          "title": "Summary",
+          "type": "string"
+        },
+        {
+          "description": "Determines order for pages; lower weight first",
+          "name": "weight",
+          "title": "Weight",
+          "type": "number"
+        },
+        {
+          "default": "{{now}}",
+          "isPublishDate": true,
+          "name": "date",
+          "title": "Publishing date",
+          "type": "datetime"
+        },
+        {
+          "name": "preview",
+          "title": "Content preview",
+          "type": "image"
+        },
+        {
+          "name": "draft",
+          "title": "Is in draft",
+          "type": "draft"
+        },
+        {
+          "description": "These options override site-wide settings for this page. Don't specify a value if you want to inherit the site defaults.",
+          "fields": [
+            {
+              "description": "Use this setting to specify whether the page title should be rendered as an <h1> element instead of the default <strong> element.",
+              "name": "title_as_heading",
+              "title": "Render Page Title as Heading",
+              "type": "boolean"
+            },
+            {
+              "fields": [
+                {
+                  "description": "Specifies whether to render the table of contents for the page. This setting overrides the site's display.table_of_contents.render, if set.",
+                  "name": "render",
+                  "title": "Render the Table of Contents",
+                  "type": "boolean"
+                },
+                {
+                  "description": "Specify the minimum heading level to include in the page's table of contents, overriding the site's display.table_of_contents.minimum_level setting. This value only affects the table of contents when use_built_in is set to false.",
+                  "name": "minimum_level",
+                  "title": "Minimum Heading Level",
+                  "type": "number"
+                },
+                {
+                  "description": "Specify the maximum heading level to include in the page's table of contents, overriding the site's display.table_of_contents.maximum_level setting. This value only affects the table of contents when use_built_in is set to false.",
+                  "name": "maximum_level",
+                  "title": "Maximum Heading Level",
+                  "type": "number"
+                },
+                {
+                  "description": "Choose whether to use Hugo's builtin table of contents or generate them with Platen, overriding the site's configuration for this page. This overrides the site's display.table_of_contents.use_built_in setting.",
+                  "name": "use_built_in",
+                  "title": "Use Built-In",
+                  "type": "boolean"
+                },
+                {
+                  "description": "Specify whether the table of contents should render its entries in an ordered list with numerals before each item. By default, the table of contents is rendered in an unordered list without any list markers, only with indents. This value overrides the site's display.table_of_contents.ordered_list setting.",
+                  "name": "ordered_list",
+                  "title": "As Ordered List",
+                  "type": "boolean"
+                }
+              ],
+              "name": "table_of_contents",
+              "title": "Table of Contents Options",
+              "type": "fields"
+            },
+            {
+              "fields": [
+                {
+                  "description": "Applicable to section pages (_index.md) only. Causes this section to display as a flat list without indenting.",
+                  "name": "flatten_section",
+                  "title": "Flatten section in site menu",
+                  "type": "boolean"
+                },
+                {
+                  "description": "Applicable to section pages (_index.md) only. Causes this section to display as a collapsible entry. When collapsed, child pages are hidden.",
+                  "name": "collapse_section",
+                  "title": "Collapse section in site menu",
+                  "type": "boolean"
+                },
+                {
+                  "description": "Specifies whether to remove the page from the site menu. This setting only has an effect when the page would otherwise be included in the site menu because it is in the folder defined in the site's display.menu_root_section setting.",
+                  "name": "hide",
+                  "title": "Hide from site menu",
+                  "type": "boolean"
+                }
+              ],
+              "name": "menu",
+              "title": "Menu options",
+              "type": "fields"
+            },
+            {
+              "description": "Specifies whether to enable comments on the page, overriding the site's features.comments.enabled setting for this page.",
+              "name": "enable_comments",
+              "title": "Enable comments",
+              "type": "boolean"
+            },
+            {
+              "description": "Specifies whether to exclude the page from site search results. This setting is only effective when the site's features.search.enabled setting is set to true.",
+              "name": "exclude_from_search",
+              "title": "Exclude from site search",
+              "type": "boolean"
+            },
+            {
+              "description": "These options override site-wide settings for this page's markup. Don't specify a value if you want to inherit the site defaults.",
+              "fields": [
+                {
+                  "description": "Defines optional settings for overriding site configuration for the KaTeX markup option, which enables you to use KaTeX markup in your content.",
+                  "fields": [
+                    {
+                      "description": "Specifies whether this content should always load the KaTeX style and script modules and auto-render any valid KaTeX markup, even outside of codeblocks and inline images.",
+                      "name": "always_load",
+                      "title": "Always Load KaTeX",
+                      "type": "boolean"
+                    }
+                  ],
+                  "name": "katex",
+                  "title": "KaTeX",
+                  "type": "fields"
+                },
+                {
+                  "description": "Defines optional settings for overriding site configuration for the Mermaid diagrams markup, which enables you to use Mermaid to create diagrams in your content",
+                  "fields": [
+                    {
+                      "description": "Specifies the version of Mermaid to load when needed, overriding the site-level setting. Platen retrieves the style and script modules for Mermaid from a CDN at build time. This value is used to determine which version to bundle and use for this content. You can set this value to any valid released version of Mermaid.",
+                      "name": "version",
+                      "title": "Mermaid Version",
+                      "type": "string"
+                    }
+                  ],
+                  "name": "markup",
+                  "title": "Mermaid",
+                  "type": "fields"
+                }
+              ],
+              "name": "markup",
+              "title": "Markup",
+              "type": "fields"
+            }
+          ],
+          "name": "platen",
+          "title": "Platen",
+          "type": "fields"
+        },
+        {
+          "hidden": true,
+          "name": "type",
+          "title": "type",
+          "type": "string"
+        },
+        {
+          "title": "images",
+          "name": "images",
+          "type": "choice",
+          "choices": [
+            "/img/thundering-steps-revised/ts-feature.jpg"
+          ]
+        },
+        {
+          "title": "toc",
+          "name": "toc",
+          "type": "datetime"
+        },
+        {
+          "title": "categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "menu",
+          "name": "menu",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "before",
+              "name": "before",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "name",
+                  "name": "name",
+                  "type": "string"
+                },
+                {
+                  "title": "weight",
+                  "name": "weight",
+                  "type": "number"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "default",
+      "pageBundle": false
+    },
+    {
+      "fields": [
+        {
+          "name": "author",
+          "title": "Author's Name",
+          "type": "string"
+        },
+        {
+          "name": "title",
+          "single": true,
+          "title": "Title",
+          "type": "string"
+        },
+        {
+          "description": "Used as the title for this page when included in a list, like the section shortcode.",
+          "name": "linktitle",
+          "single": true,
+          "title": "Link Title",
+          "type": "string"
+        },
+        {
+          "description": "Displayed when paginated or in a list and as page description",
+          "name": "summary",
+          "title": "Summary",
+          "type": "string"
+        },
+        {
+          "description": "Determines order for pages; lower weight first",
+          "name": "weight",
+          "title": "Weight",
+          "type": "number"
+        },
+        {
+          "default": "{{now}}",
+          "isPublishDate": true,
+          "name": "date",
+          "title": "Publishing date",
+          "type": "datetime"
+        },
+        {
+          "name": "preview",
+          "title": "Content preview",
+          "type": "image"
+        },
+        {
+          "name": "draft",
+          "title": "Is in draft",
+          "type": "draft"
+        },
+        {
+          "description": "These options override site-wide settings for this page. Don't specify a value if you want to inherit the site defaults.",
+          "fields": [
+            {
+              "description": "Use this setting to specify whether the page title should be rendered as an <h1> element instead of the default <strong> element.",
+              "name": "title_as_heading",
+              "title": "Render Page Title as Heading",
+              "type": "boolean"
+            },
+            {
+              "fields": [
+                {
+                  "description": "Specifies whether to render the table of contents for the page. This setting overrides the site's display.table_of_contents.render, if set.",
+                  "name": "render",
+                  "title": "Render the Table of Contents",
+                  "type": "boolean"
+                },
+                {
+                  "description": "Specify the minimum heading level to include in the page's table of contents, overriding the site's display.table_of_contents.minimum_level setting. This value only affects the table of contents when use_built_in is set to false.",
+                  "name": "minimum_level",
+                  "title": "Minimum Heading Level",
+                  "type": "number"
+                },
+                {
+                  "description": "Specify the maximum heading level to include in the page's table of contents, overriding the site's display.table_of_contents.maximum_level setting. This value only affects the table of contents when use_built_in is set to false.",
+                  "name": "maximum_level",
+                  "title": "Maximum Heading Level",
+                  "type": "number"
+                },
+                {
+                  "description": "Choose whether to use Hugo's builtin table of contents or generate them with Platen, overriding the site's configuration for this page. This overrides the site's display.table_of_contents.use_built_in setting.",
+                  "name": "use_built_in",
+                  "title": "Use Built-In",
+                  "type": "boolean"
+                },
+                {
+                  "description": "Specify whether the table of contents should render its entries in an ordered list with numerals before each item. By default, the table of contents is rendered in an unordered list without any list markers, only with indents. This value overrides the site's display.table_of_contents.ordered_list setting.",
+                  "name": "ordered_list",
+                  "title": "As Ordered List",
+                  "type": "boolean"
+                }
+              ],
+              "name": "table_of_contents",
+              "title": "Table of Contents Options",
+              "type": "fields"
+            },
+            {
+              "name": "enable_comments",
+              "title": "Enable comments",
+              "type": "boolean"
+            },
+            {
+              "name": "exclude_from_search",
+              "title": "Exclude from site search",
+              "type": "boolean"
+            }
+          ],
+          "name": "platen",
+          "title": "Platen",
+          "type": "fields"
+        },
+        {
+          "name": "tags",
+          "title": "Tags",
+          "type": "tags"
+        },
+        {
+          "name": "categories",
+          "title": "Categories",
+          "type": "categories"
+        },
+        {
+          "default": "posts",
+          "hidden": true,
+          "name": "type",
+          "title": "type",
+          "type": "string"
+        },
+        {
+          "title": "images",
+          "name": "images",
+          "type": "choice",
+          "choices": [
+            "/img"
+          ]
+        },
+        {
+          "title": "toc",
+          "name": "toc",
+          "type": "datetime"
+        }
+      ],
+      "name": "posts",
+      "pageBundle": false,
+      "previewPath": "posts"
+    }
+  ],
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "content",
+      "path": "[[workspace]]/content"
+    }
+  ]
+}

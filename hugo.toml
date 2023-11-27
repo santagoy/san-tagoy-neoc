@@ -1,9 +1,0 @@
-baseURL = 'https://san-tagoy.neocities.org/'
-languageCode = 'en-us'
-title = 'Getting Better'
-# theme = 'platen'
-timeZone = 'Asia/Manila'
-
-[module]
-[[module.imports]]
-    path = 'github.com/platenio/platen/modules/platen'

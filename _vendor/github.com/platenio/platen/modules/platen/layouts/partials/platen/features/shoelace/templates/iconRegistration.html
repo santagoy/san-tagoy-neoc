@@ -1,9 +1,0 @@
-{{- $Params           := .                                       -}}
-{{- $Integrity        := $Params.Integrity        | safeHTMLAttr -}}
-{{- $ShoelaceBasePath := $Params.ShoelaceBasePath | safeHTMLAttr -}}
-{{- $Source           := $Params.Source           | safeHTMLAttr -}}
-
-<script type="module"
-        src="{{ $Source }}"
-        data-shoelace="{{ $ShoelaceBasePath }}"
-        {{ $Integrity }}></script>

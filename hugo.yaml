@@ -1,0 +1,29 @@
+baseURL: 'https://san-tagoy.neocities.org/'
+languageCode: en-us
+title: Getting Better
+timeZone: Asia/Manila
+
+module:
+  imports:
+    - path: github.com/platenio/platen/modules/platen
+
+# menu:
+#   before:
+#     - name: Blog
+#       url: /posts
+#       weight: 10
+params:
+  author: "Nico Santagoy"
+  description: "I'd like to be one. I'd like to be many things, like a collage artist or a writer of Tabletop Role-playing Game content."
+
+# platen:
+#   display:
+#     date_format: :time_medium
+#     logo: /logo.webp
+#     url: /assets
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+        title: true
