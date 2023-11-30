@@ -1,0 +1,17 @@
+{{ if .Params.toc }}
+<aside>
+    <div id="fix_toc" class="fix_toc hide">    
+        <div class="widget widget_toc">
+      <h2 id="toc-title">Contents<span class="toggle"></span></h2>
+    {{ .TableOfContents }}
+        </div>
+    </div>
+<button class="toc_toggle" onclick="toggleToc()"><img src="/img/nav-icon.webp" alt="toc icon"></button>
+</aside>
+<script>
+    function toggleToc() {
+        var fix_toc = document.getElementById("fix_toc");
+        fix_toc.classList.toggle("hide");
+    }
+</script>
+{{ end }}

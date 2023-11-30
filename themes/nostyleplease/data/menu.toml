@@ -44,11 +44,17 @@ title = "RPG RULES"
   [[entries.entries]]
   title = "Wanton Pinoy Spaghetti"
 
+  [[entries.entries.entries]]
+  title = "Italian Spaghetti Westerns brought to life in Spanish colonial Philippines"
+
   [entries.entries.post_list]
   section = 'wps'
 
   [[entries.entries]]
   title = "Bloody Lands"
+
+  [[entries.entries.entries]]
+  title = "The companions rules set to Ten Hail Marys in the Dark"
 
   [entries.entries.post_list]
   section = 'bloody-lands'

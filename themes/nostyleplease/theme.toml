@@ -5,10 +5,10 @@ name = "no-style-please"
 license = "MIT"
 licenselink = "https://github.com/Masellum/hugo-theme-nostyleplease/blob/main/LICENSE"
 description = "a (nearly) no-CSS, fast, minimalist Hugo theme ported from riggraz/no-style-please."
-homepage = "https://github.com/Masellum/hugo-theme-nostyleplease"
+homepage = "https://github.com/g-hw/hugo-theme-nostyleplease"
 tags = ["blog", "minimalist"]
 features = []
-min_version = "0.114.1"
+min_version = "0.119.1"
 
 [author]
   name = "Masellum"

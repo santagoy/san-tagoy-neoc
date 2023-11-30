@@ -11,11 +11,13 @@ Set in a speculative very near future where our mode of technology isn't too dif
 
 Yes, this is effectively a not-so-subtle nod to Twilight 2000 and The Country by Luke Gearing.
 
-Yes, this is also based on a hypothetical future for my home country but in parts of it more familiar to me. Yes, this was kind of depressing to write. No, I'm not always this cynical.
+Yes, this is also based on a hypothetical future for my home country based on lived experiences. Yes, this was kind of depressing to write. No, I'm not always this cynical.
+
+You can find the companion adventure [Ten Hail Marys in the Dark on itch](https://san-tagoy.itch.io/ten-hail-marys-in-the-dark).
 
 ## Content Warning
 
-The following sections, particularly in [character creation](/land-to-blood/chargen) contain fictional details about the horrors of war with few moments of light scattered here and there. Reader discretion is preferred.
+The following sections, particularly in [character creation](/bloody-lands/chargen) contain fictional details about the horrors of war with few moments of light scattered here and there. Reader discretion is preferred.
 
 ## Introduction
 
@@ -25,14 +27,14 @@ Welcome to the lands of the Archipelago, ruled by fiefdoms and disparate groups 
 
 ## Directory
 
-### [Making a Character](/land-to-blood/chargen)
+### [Making a Character](/bloody-lands/chargen)
 
 How to make survivors in the broken world of the near future.
 
-### [Gear List](/land-to-blood/gear-list)
+### [Gear List](/bloody-lands/gear-list)
 
 What everyone wants and needs to survive and stay sane.
 
-### [Skirmishes](/land-to-blood/skirmishes)
+### [Skirmishes](/bloody-lands/skirmishes)
 
 For referees in adjudicating close encounters with lead and other application of deadly force.
