@@ -105,15 +105,15 @@ You must be within 3" of your target for melee.
 The target numbers apply to missile fire too.
 
 | AC  | Armor Type       | TN (2d6) |
-| :-: | ---------------- | :-------: |
-|  9  | Unarmored        |     6     |
-|  8  | Shield           |     7     |
-|  7  | Leather          |     7     |
-|  6  | Leather + Shield |     8     |
-|  5  | Chain            |     8     |
-|  4  | Chain + Shield   |     9     |
-|  3  | Plate            |     9     |
-|  2  | Plate + Shield   |    10     |
+| :-: | ---------------- | :------: |
+|  9  | Unarmored        |    7     |
+|  8  | Shield           |    8     |
+|  7  | Leather          |    8     |
+|  6  | Leather + Shield |    9     |
+|  5  | Chain            |    9     |
+|  4  | Chain + Shield   |    10    |
+|  3  | Plate            |    10    |
+|  2  | Plate + Shield   |    11    |
 
 #### Missile Fire
 
@@ -219,12 +219,12 @@ Barded mounts are harder to hit, but have their speed reduced.
 | Polearm/Lance | Two-handed. Reach. Attacks against a nominated adjacent ally are at -1 (cannot be stacked).                                          |
 
 | Missile Weapon | Special                                                                                                     | Ranges (S/M/L) |
-| -------------- | ----------------------------------------------------------------------------------------------------------- | :-------------: |
-| Sling          | Can launch miscellaneous objects                                                                            |    5/10/15"     |
-| Shortbow       | Can split movement and firing (i.e. move -> fire -> move). The final move is after firing and before melee. |    6/12/18"     |
-| Longbow        | +1 to the roll if a round is spent aiming.                                                                  |    7/14/21"     |
-| Crossbow       | Requires an action to reload each shot.                                                                     |    8/16/24"     |
-| Arquebus       | Requires two turns (consecutive or split) to reload. Reduces TN by 1 against all armor.                     |    6/12/18"     |
+| -------------- | ----------------------------------------------------------------------------------------------------------- | :------------: |
+| Sling          | Can launch miscellaneous objects                                                                            |    5/10/15"    |
+| Shortbow       | Can split movement and firing (i.e. move -> fire -> move). The final move is after firing and before melee. |    6/12/18"    |
+| Longbow        | +1 to the roll if a round is spent aiming.                                                                  |    7/14/21"    |
+| Crossbow       | Requires an action to reload each shot.                                                                     |    8/16/24"    |
+| Arquebus       | Requires two turns (consecutive or split) to reload. Reduces TN by 1 against all armor.                     |    6/12/18"    |
 
 ## NPCs
 

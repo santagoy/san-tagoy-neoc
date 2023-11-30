@@ -4,7 +4,7 @@ title: "Found on the Road! No. 01"
 summary: |
   A rundown of interesting things I've found, new and old!
 images:
-  - /img/fotd-1/feature.jpg
+  - /img/fotr-1/feature.jpg
 toc: true
 date: 2023-06-30
 categories:
