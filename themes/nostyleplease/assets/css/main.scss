@@ -47,7 +47,6 @@ body, form {
   line-height: 1.4;
   margin: 0;
   min-height: 100%;
-  overflow-wrap: break-word;
 }
 
 .post-meta { text-align: right; }
@@ -228,7 +227,6 @@ a:active {
 }
 
 #neossg {
-  margin: 0 auto;
   table {
     border: none;
     border-collapse: collapse;
@@ -237,21 +235,40 @@ a:active {
       border-collapse: collapse;
     }
   }
-  .webring-prev {
-    text-align: right;
-  }
-  .webring-info {
-    text-align: center;
-  }
-  .webring-next {
-    text-align: left;
-  }
+    span {
+      padding: 0 .25em;
+    }
+  // .webring-prev {
+  //   text-align: right;
+  // }
+  // .webring-info {
+  //   text-align: center;
+  // }
+  // .webring-next {
+  //   text-align: left;
+  // }
 }
 
-.webring-header {
+.webrings {
   text-align: center;
-  margin: 0 auto;
-  margin-bottom: 8px;
+}
+
+#focusfirst-webring {
+  margin-top: 1em;
+  span {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+  p {
+    margin: 0 0;
+  }
+  img {
+    margin: 0 .5em;
+  }
 }
 
 nav {
