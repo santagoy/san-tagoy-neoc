@@ -14,6 +14,25 @@ title = "info"
   title = "original site"
   url = "https://san-tagoy.xyz/"
 
+  [[entries.entries]]
+  title = "reaching out"
+
+  [[entries.entries.entries]]
+  title = "howdy@san-tagoy.online"
+  url = "mailto:howdy@san-tagoy.online"
+
+  [[entries.entries.entries]]
+  title = "mastodon"
+  url = "https://dice.camp/@san_tagoy"
+
+  [[entries.entries.entries]]
+  title = "cohost"
+  url = "https://cohost.org/san-tagoy"
+
+  [[entries.entries.entries]]
+  title = "instagram and threads"
+  url = "https://www.instagram.com/san_tagoy/"
+
 [[entries]]
 title = "the blog"
 
