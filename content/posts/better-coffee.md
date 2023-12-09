@@ -19,7 +19,7 @@ I was persistently a stranger, perplexingly so, to you whom I preferred.
 That wasn't great because whenever you asked about myself
 It was after I'd done something bad and it happened to be my fault.
 
-Worst of all, coffee would taste undeservingly sour as if
+Worst of all, coffee would taste undeservingly bitter as if
 I were being punished. I really should have stopped counting
 my comeuppances, the direct results of my shortcomings,
 and my attempts at getting better without really trying.
