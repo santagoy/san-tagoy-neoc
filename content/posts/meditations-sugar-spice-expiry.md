@@ -38,11 +38,11 @@ Luckily, Eden is a scam. Unfortunately, entropy
     is unfair. Hourglasses run out of sand.
     Neither of us around
     for Christmas parties.
-    You, unable to ask me
-    for favors and errands.
-    I, crushed that I can't
-    do anything for you.
-    Our ashes inevitable.
+    Unalive you, unable to
+    ask me for little favors.
+    I, now gone, crushed
+    that I can't do anything
+    for you. Our ashes inevitable.
 
 Luckily again—knock on wood a hundred times—
     we're not crossing yet.
