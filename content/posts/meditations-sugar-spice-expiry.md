@@ -22,8 +22,10 @@ You're maybe not everything nice, but that's fine.
     familiar like home where I can lay.
     You're what I'd keep if I had to leave all else—
     warming me against the cold and dark I made up.
+
     In my nebulous negativity where I occasionally
     wallow, I am saved by every memory of you.
+
     Light is the obvious and platitudinal analogy.
     Although, my preferred metaphor is abstract.
     You're an epiphany reminding me why I
@@ -33,24 +35,27 @@ You're maybe not everything nice, but that's fine.
     would be pain and regret.
 
 Luckily, Eden is a scam. Unfortunately, entropy
-    is unfair. Neither of us around
+    is unfair. Hourglasses run out of sand.
+    Neither of us around
     for Christmas parties.
     You, unable to ask me
-    for favors and errands. I,
-    crushed that I can't
-    do those things
-    for you.
+    for favors and errands.
+    I, crushed that I can't
+    do anything for you.
+    Our ashes inevitable.
 
 Luckily again—knock on wood a hundred times—
-    it's not a bridge we're crossing yet.
+    we're not crossing yet.
 
-You still smile. I'm not saying
-    you always should. Then you ask me
-    for whatever you want and know
-    that I can give. Don't stop, Lord
-    knows, I love when you do.
+You still smile. Though I don't say
+    you always should. Your laughter follows,
+    permeates like blood in water.
+    I, not a hunter, follow the trail
+    known by heart. You never ask me for
+    whatever you want but know
+    that I still give anyway.
 
-Despite all that, chance, time, ends, etc.,
-    the choice remains. So, I am here
-    remembering you.
+Despite chance, time, and ends,
+    the choice remains. So here
+    I remember you.
 ```
