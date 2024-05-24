@@ -114,3 +114,4 @@ Malorian
 [cC]ybermas
 [gG]unmas
 (?i)The
+[tT]alsorian

@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Choom's Tomb, a Cyberpunk Red adventure"
+title: "Choom's Tomb, a fan-made adventure for Cyberpunk RED"
 summary: |
   The scenario is inspired by the Gunfight at the Ok Corral. That shound be obvious to a number of folks.
 images:
@@ -183,6 +183,10 @@ I got inspiration for Lucky Dragon Plaza from Frag Maps' Dragon House Chinese Re
 ![Lucky Dragon Plaza Suggested Net Architecture](/img/chooms-tomb/net-archi.webp)
 
 First node should be the CCTV cameras in the building and the silent alarm. The two passwords in the middle guard halves of the encrypted ledger documenting the clans' illicit activities. The two hellhounds guard the encryption key to unlock said ledger.
+
+## LEGAL
+
+Choom's Tomb is unofficial content provided under the [Homebrew Content Policy](https://rtalsoriangames.com/homebrew-content-policy/) of [R. Talsorian Games](https://talsorianstore.com/) and isn't approved or endorsed by R. Talsorian Games. This content references materials that are the property of R. Talsorian Games and its licensees.
 
 [^1]: Cyberpunk RED Core (2020), Page 412.
 [^2]: Cyberpunk RED Core (2020), Page 114.
