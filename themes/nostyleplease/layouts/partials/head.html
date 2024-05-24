@@ -14,7 +14,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="{{ $.Site.Params.favicon | relURL }}" />
   {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" (not hugo.IsProduction)) }}
   {{ $sass := resources.Get "css/main.scss" }}
-  {{ $style := $sass | resources.ToCSS $options | resources.Fingerprint "sha512" }}
+  {{ $style := $sass | resources.ToCSS $options | resources.Fingerprint "sha256" }}
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">

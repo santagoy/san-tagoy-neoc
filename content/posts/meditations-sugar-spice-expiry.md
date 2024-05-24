@@ -73,4 +73,4 @@ Despite chance, time, and ends,
 
 ## FOR MOBILE
 
-![stamp of Faust dealing with mephisto](/img/meditations-sugar-spice-expiry/for-mobile.jpg)
+![mobile image](/img/meditations-sugar-spice-expiry/for-mobile.jpg)
