@@ -4,7 +4,7 @@ title: "Choom's Tomb, a Cyberpunk Red adventure"
 summary: |
   The scenario is inspired by the Gunfight at the Ok Corral. That shound be obvious to a number of folks.
 images:
-  - /img/chooms-tomb/feature-choom.webp
+  - /img/chooms-tomb/feature-choom.jpg
 toc: true
 date: 2024-05-23
 categories:
