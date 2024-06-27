@@ -102,10 +102,6 @@ li { margin: 0.4rem 0; }
   }
 }
 
-.buttondown {
-  text-align: center;
-}
-
 // .toc {
 //   border: thin solid #1d1d10;
 //   padding: 1rem;
@@ -277,31 +273,31 @@ nav {
   }
 }
 
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  z-index: 99;
-  font-size: 14px;
-  font-weight: bold;
-  font-family: barlow;
-  border: none;
-  outline: none;
-  background-color: #9f1900;
-  color: #b9aec3;
-  cursor: pointer;
-  padding: 12px;
-  border-radius: 4px;
-}
+// #myBtn {
+//   display: none;
+//   position: fixed;
+//   bottom: 30px;
+//   right: 30px;
+//   z-index: 99;
+//   font-size: 14px;
+//   font-weight: bold;
+//   font-family: barlow;
+//   border: none;
+//   outline: none;
+//   background-color: #9f1900;
+//   color: #b9aec3;
+//   cursor: pointer;
+//   padding: 12px;
+//   border-radius: 4px;
+// }
 
-#myBtn:hover {
-  background-color: rgb(96, 78, 104);
-}
+// #myBtn:hover {
+//   background-color: rgb(96, 78, 104);
+// }
 
-#myBtn:visited {
-  background-color: #9f1900;
-}
+// #myBtn:visited {
+//   background-color: #9f1900;
+// }
 
 button.toc_toggle {
   padding: 0;

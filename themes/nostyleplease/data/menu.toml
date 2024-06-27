@@ -11,11 +11,11 @@ title = "info"
   title = "If you like what I do and want to see more of it, <a href='https://ko-fi.com/san_tagoy' target='_blank' rel='noopener noreferrer'>support me on Ko-Fi!</a>"
 
   [[entries.entries]]
-  title = "original site"
-  url = "https://san-tagoy.xyz/"
+  title = "RSS feed"
+  url = "https://san-tagoy.neocities.org/index.xml"
 
   [[entries.entries]]
-  title = "reaching out"
+  title = "reach out"
 
   [[entries.entries.entries]]
   title = "howdy@san-tagoy.online"
@@ -29,10 +29,6 @@ title = "info"
   title = "cohost"
   url = "https://cohost.org/san-tagoy"
 
-  [[entries.entries.entries]]
-  title = "instagram and threads"
-  url = "https://www.instagram.com/san_tagoy/"
-
 [[entries]]
 title = "the blog"
 
@@ -43,7 +39,7 @@ title = "the blog"
     section = 'posts'
     limit = 4
     show_more = true
-    show_more_text = "Archive"
+    show_more_text = "archive"
     show_more_url = "posts"
 
   [[entries.entries]]
@@ -56,24 +52,3 @@ title = "the blog"
     [[entries.entries.entries]]
     title = "categories"
     url = "categories"
-
-[[entries]]
-title = "RPG RULES"
-
-  [[entries.entries]]
-  title = "Wanton Pinoy Spaghetti"
-
-  [[entries.entries.entries]]
-  title = "Italian Spaghetti Westerns brought to life in Spanish colonial Philippines"
-
-  [entries.entries.post_list]
-  section = 'wps'
-
-  [[entries.entries]]
-  title = "Bloody Lands"
-
-  [[entries.entries.entries]]
-  title = "The companions rules set to Ten Hail Marys in the Dark"
-
-  [entries.entries.post_list]
-  section = 'bloody-lands'
