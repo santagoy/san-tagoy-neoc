@@ -4,7 +4,7 @@ title: "d33 Troika Backgrounds for What Was Manila"
 summary: |
   I ripped characteres from KOTOR 2 to make Troika Backgrounds for the local post-apocalypse. Yay?
 images:
-  - /img/pitg-d33-backgrounds/cloudboom.png
+  - /img/pitg-d33-backgrounds/cloudboom.webp
 toc: true
 date: 2024-06-27
 categories:
@@ -17,13 +17,13 @@ tags:
 
 <!-- markdownlint-disable MD024 -->
 
-![hero image](/img/pitg-d33-backgrounds/cloudboom.png)
+![hero image](/img/pitg-d33-backgrounds/cloudboom.webp)
 
 ## WELCOME TO WHAT-WAS
 
 The Kapitol Wastes of Once Manila! I don't want to make a new system or intimidate newbies with B/X. Plus I didn't want a setting exposition dump. The solution was Troika! And, yes, I ripped the characters from Star Wars: Knights of the Old Republic 2. Then I made them into more specific backgrounds for this post. The Force even has an analog here.
 
-The reason was that after playing Dogs in the Vineyard, I wanted to make a setting inspired by it in the post-apocalypse. So I came up with Pigs in the Graveyard. I wanted to develop over time, but mow I think the best way to build the world is with Troika. Yay!
+The reason was that after playing Dogs in the Vineyard, I wanted to make a setting inspired by it in the post-apocalypse. So I came up with Pigs in the Graveyard. I wanted to develop over time, but now I think the best way to build the world is with Troika. Yay!
 
 I'll be running [Smells Fishy, Jack!](https://san-tagoy.itch.io/smells-fishy-jack). Players, don't click if you want to avoid all spoilers. I'm evidently excited. Yay (1).
 
@@ -123,7 +123,7 @@ Your are uniquely synchronized with the Echo. In addition to everything else a C
 
 ---
 
-![hero image](/img/pitg-d33-backgrounds/propaganda.jpg)
+![hero image](/img/pitg-d33-backgrounds/propaganda.webp)
 { .half }
 
 ## 21 REGRETFUL ASSASSIN
@@ -203,7 +203,7 @@ Your people survived after the Pride and Fall through the domestication of kaboa
 
 ---
 
-![hero image](/img/pitg-d33-backgrounds/robot-stairs.png)
+![hero image](/img/pitg-d33-backgrounds/robot-stairs.webp)
 
 ## 31 BLIND SEER
 

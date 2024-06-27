@@ -4,7 +4,7 @@ title: "Thundering Steps, REVISED"
 summary: |
   Revised rules for playing nomadic horse archers. Inspired by Brandon Yu's Chaos Reigns.
 images:
-  - /img/thundering-steps-revised/ts-feature.jpg
+  - img/thundering-steps-revised/ts-feature.jpg
 toc: true
 date: 2023-11-20
 categories:
