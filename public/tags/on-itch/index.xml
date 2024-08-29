@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>On Itch on Getting Better</title><link>https://san-tagoy.neocities.org/tags/on-itch/</link><description>Recent content in On Itch on Getting Better</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 02 Dec 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://san-tagoy.neocities.org/tags/on-itch/index.xml" rel="self" type="application/rss+xml"/><item><title>ATTENTION: Relaunch of Smells Fishy, Jack!</title><link>https://san-tagoy.neocities.org/posts/attn-sfj/</link><pubDate>Sat, 02 Dec 2023 00:00:00 +0800</pubDate><guid>https://san-tagoy.neocities.org/posts/attn-sfj/</guid><description>It never changes. Welcome to the post-apocalyptic land of the Kapitol Wastes! A land resistant to progress.</description></item><item><title>Ten Haily Marys in the Dark</title><link>https://san-tagoy.neocities.org/posts/10-hm/</link><pubDate>Sat, 01 Jul 2023 00:00:00 +0800</pubDate><guid>https://san-tagoy.neocities.org/posts/10-hm/</guid><description>On institutional violence and the viciousness it perpetuates in a world beyond healing. It&amp;rsquo;s also something I made and distributed without PDFs.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>On Itch on Getting Better</title>
+    <link>http://localhost:1313/tags/on-itch/</link>
+    <description>Recent content in On Itch on Getting Better</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/on-itch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ATTENTION: Relaunch of Smells Fishy, Jack!</title>
+      <link>http://localhost:1313/posts/attn-sfj/</link>
+      <pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/attn-sfj/</guid>
+      <description>It never changes. Welcome to the post-apocalyptic land of the Kapitol Wastes! A land resistant to progress.</description>
+    </item>
+    <item>
+      <title>Ten Haily Marys in the Dark</title>
+      <link>http://localhost:1313/posts/10-hm/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/10-hm/</guid>
+      <description>This Is&#xD;#&#xD;It&amp;rsquo;s an adventure originally by Roz Leahy. You can find it in the Violence Jam (2022). I could really feel the wretched parallels between the setting of their work, Ireland, and my home country.&#xA;The Church is a bit of a mixed bag here in that they&amp;rsquo;ve been both a source of humanity and abetted in depravity. Even with the separation of Church and State, power corrupts both.</description>
+    </item>
+  </channel>
+</rss>

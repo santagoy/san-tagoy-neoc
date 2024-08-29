@@ -1,13 +1,37 @@
-baseURL = 'https://san-tagoy.neocities.org/'
-languageCode = 'en-us'
-title = 'Getting Better'
-theme = 'nostyleplease'
-timeZone = 'Asia/Manila'
+# Set your theme here
+theme = "hugo-tufte"
+# The language of your website (see https://www.andiamo.co.uk/resources/iso-language-codes/ for reference)
+languageCode = "en-us"
+# The url of your website
+baseurl = "https://san-tagoy.neocities.org/"
+# The title of your website (shown on all the pages)
+title = "Getting Better"
+
+[module]
+    [module.hugoVersion]
+    extended = true
+    min = "0.83.0"
+
+[params]
+  # Subtitle of the website
+  subtitle = "My writing progress."
+  # Your name or the name of you company
+  copyrightHolder = "Nico Santagoy"
+  # Show the "Powered by Hugo-Tufte and Hugo." 
+  showPoweredBy = false
+  # Site wide kill switch
+  hidedate = false
+  # Uncomment for dark code blocks
+  # codeBlocksDark = true
+  timeZone = 'Asia/Manila'
+  images = ['/img/feature.webp']
+  description = "I used to design games, now I write them. Am I a writer? I'd like to be one. I'd like to be many things, like a collage artist or a stable person."
+  favicon = '/favicon.ico'
 
 [markup]
   [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+  [markup.goldmark.renderer]
+    unsafe = true
     [markup.goldmark.parser]
       [markup.goldmark.parser.attribute]
         block = true
@@ -30,9 +54,3 @@ timeZone = 'Asia/Manila'
     startLevel = 2
     endLevel = 5
     ordered = false
-
-[params]
-  author = 'Nico Santagoy'
-  images = ['/img/feature.webp']
-  description = "I used to design games, now I write them. Am I a writer? I'd like to be one. I'd like to be many things, like a collage artist or a writer of Tabletop Role-playing Game content."
-  favicon = '/favicon.ico'

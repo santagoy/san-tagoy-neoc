@@ -1,8 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bloody-Lands on Getting Better</title><link>https://san-tagoy.neocities.org/bloody-lands/</link><description>Recent content in Bloody-Lands on Getting Better</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 11 Sep 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://san-tagoy.neocities.org/bloody-lands/index.xml" rel="self" type="application/rss+xml"/><item><title>01 Introduction</title><link>https://san-tagoy.neocities.org/bloody-lands/intro/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0800</pubDate><guid>https://san-tagoy.neocities.org/bloody-lands/intro/</guid><description>Assumptions Set in a speculative very near future where our mode of technology isn&amp;rsquo;t too different from today.
-Yes, this is effectively a not-so-subtle nod to Twilight 2000 and The Country by Luke Gearing.
-Yes, this is also based on a hypothetical future for my home country based on lived experiences. Yes, this was kind of depressing to write. No, I&amp;rsquo;m not always this cynical.
-You can find the companion adventure Ten Hail Marys in the Dark on itch.</description></item><item><title>Character Creation</title><link>https://san-tagoy.neocities.org/bloody-lands/chargen/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0800</pubDate><guid>https://san-tagoy.neocities.org/bloody-lands/chargen/</guid><description>Assumptions Start at 17 years of age. By the end of character creation, you&amp;rsquo;re assumed be a survivor in this world.
-Each Skill adds a +1, +2, or +3 to a 2d6 roll. You only roll 2d6 when doing risky things like shooting a foe in a firefight or trying to pick a lock under duress. The number you need to beat is always an 8, no more, no less.</description></item><item><title>Gear List</title><link>https://san-tagoy.neocities.org/bloody-lands/gear-list/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0800</pubDate><guid>https://san-tagoy.neocities.org/bloody-lands/gear-list/</guid><description>Gear Currency? Backed by fucking what? There are semblances of it ever since the Landlords took control of factories. Bullets from them are like trickled down gold. Nonetheless, it&amp;rsquo;s still hearkening back to what we&amp;rsquo;ve completely lost. Keeping up appearances in these times is asinine.
-Social credit&amp;rsquo;s back since all we really got is our word that we&amp;rsquo;ll repay at one point. If your word is shit, however, expect fists to your face in the foreseeable future.</description></item><item><title>Skirmishes</title><link>https://san-tagoy.neocities.org/bloody-lands/skirmishes/</link><pubDate>Mon, 11 Sep 2023 00:00:00 +0800</pubDate><guid>https://san-tagoy.neocities.org/bloody-lands/skirmishes/</guid><description>Please check out Night-Tripper by Chris P. Wolf! You can find the original rules for Skirmishes here. These rules were heavily inspired by what&amp;rsquo;s there.
-Selective Use Single rolls or just saying what happens are enough to resolve most conflicts. For more complex scenarios, use these combat rules.
-Rounds Combat is divided into rounds. Each round being a flash of time. Each character commits to only one action per round. Resolve actions in the following order:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bloody-Lands on Getting Better</title>
+    <link>http://localhost:1313/bloody-lands/</link>
+    <description>Recent content in Bloody-Lands on Getting Better</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/bloody-lands/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 Introduction</title>
+      <link>http://localhost:1313/bloody-lands/intro/</link>
+      <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bloody-lands/intro/</guid>
+      <description>Assumptions&#xD;#&#xD;Set in a speculative very near future where our mode of technology isn&amp;rsquo;t too different from today.&#xA;Yes, this is effectively a not-so-subtle nod to Twilight 2000 and The Country by Luke Gearing.&#xA;Yes, this is also based on a hypothetical future for my home country based on lived experiences. Yes, this was kind of depressing to write. No, I&amp;rsquo;m not always this cynical.&#xA;You can find the companion adventure Ten Hail Marys in the Dark on itch.</description>
+    </item>
+    <item>
+      <title>Character Creation</title>
+      <link>http://localhost:1313/bloody-lands/chargen/</link>
+      <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bloody-lands/chargen/</guid>
+      <description>Assumptions&#xD;#&#xD;Start at 17 years of age. By the end of character creation, you&amp;rsquo;re assumed be a survivor in this world.&#xA;Each Skill adds a +1, +2, or +3 to a 2d6 roll. You only roll 2d6 when doing risky things like shooting a foe in a firefight or trying to pick a lock under duress. The number you need to beat is always an 8, no more, no less.</description>
+    </item>
+    <item>
+      <title>Gear List</title>
+      <link>http://localhost:1313/bloody-lands/gear-list/</link>
+      <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bloody-lands/gear-list/</guid>
+      <description>Gear&#xD;#&#xD;Currency? Backed by fucking what? There are semblances of it ever since the Landlords took control of factories. Bullets from them are like trickled down gold. Nonetheless, it&amp;rsquo;s still hearkening back to what we&amp;rsquo;ve completely lost. Keeping up appearances in these times is asinine.&#xA;Social credit&amp;rsquo;s back since all we really got is our word that we&amp;rsquo;ll repay at one point. If your word is shit, however, expect fists to your face in the foreseeable future.</description>
+    </item>
+    <item>
+      <title>Skirmishes</title>
+      <link>http://localhost:1313/bloody-lands/skirmishes/</link>
+      <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bloody-lands/skirmishes/</guid>
+      <description>Please check out Night-Tripper by Chris P. Wolf! You can find the original rules for Skirmishes here. These rules were heavily inspired by what&amp;rsquo;s there.&#xA;Selective Use&#xD;#&#xD;Single rolls or just saying what happens are enough to resolve most conflicts. For more complex scenarios, use these combat rules.&#xA;Rounds&#xD;#&#xD;Combat is divided into rounds. Each round being a flash of time. Each character commits to only one action per round.</description>
+    </item>
+  </channel>
+</rss>

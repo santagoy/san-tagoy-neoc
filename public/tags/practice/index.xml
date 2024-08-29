@@ -1,2 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Practice on Getting Better</title><link>https://san-tagoy.neocities.org/tags/practice/</link><description>Recent content in Practice on Getting Better</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://san-tagoy.neocities.org/tags/practice/index.xml" rel="self" type="application/rss+xml"/><item><title>Meditations on Sugar, Spice, and Expiry Dates</title><link>https://san-tagoy.neocities.org/posts/meditations-sugar-spice-expiry/</link><pubDate>Thu, 22 Feb 2024 00:00:00 +0800</pubDate><guid>https://san-tagoy.neocities.org/posts/meditations-sugar-spice-expiry/</guid><description>I wrote this feeling affectionate for friends.</description></item><item><title>Better Coffee, a Practice Poem</title><link>https://san-tagoy.neocities.org/posts/better-coffee/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0800</pubDate><guid>https://san-tagoy.neocities.org/posts/better-coffee/</guid><description>Something I wrote on a whim about a past relationship and the growth thereafter.</description></item><item><title>Remembering the Sun and Its Shadows</title><link>https://san-tagoy.neocities.org/posts/sun-shadow/</link><pubDate>Thu, 29 Jun 2023 00:00:00 +0800</pubDate><guid>https://san-tagoy.neocities.org/posts/sun-shadow/</guid><description>Something I wrote about past mistakes, the burden of memory, and an epiphany brought about by good company.
-Remember when I was young? I rather not. The sins from then still stain the once ivory light I shine. Bright, unyielding naivete colored those movements. Wherever I went, my shadows inflicted pain, undeservingly— I am not asking for contrition, Father. I am unworthy, but I fetch a good price in the market.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Practice on Getting Better</title>
+    <link>http://localhost:1313/tags/practice/</link>
+    <description>Recent content in Practice on Getting Better</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/practice/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Better Coffee, a Practice Poem</title>
+      <link>http://localhost:1313/posts/better-coffee/</link>
+      <pubDate>Thu, 03 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/better-coffee/</guid>
+      <description>Something I wrote on a whim about a past relationship and the growth thereafter.</description>
+    </item>
+    <item>
+      <title>Remembering the Sun and Its Shadows</title>
+      <link>http://localhost:1313/posts/sun-shadow/</link>
+      <pubDate>Thu, 29 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sun-shadow/</guid>
+      <description>Something I wrote about past mistakes, the burden of memory, and an epiphany brought about by good company.&#xA;Remember when I was young? I rather not. The sins from then still stain the once ivory light I shine. Bright, unyielding naivete colored those movements. Wherever I went, my shadows inflicted pain, undeservingly— I am not asking for contrition, Father. I am unworthy, but I fetch a good price in the market.</description>
+    </item>
+  </channel>
+</rss>
