@@ -53,19 +53,19 @@ Roll 1d6 + Charisma. On a 5 or 6, you begin with a contract with an Outrider, ot
   
 ## Skirmishes
 
-Actions are done in order of sequenced actions. The Referee calls for the actions and sequence and players announce to which action they are committing.
+Actions are done in order of sequenced actions. The Referee calls for the actions and sequence and players announce to which action they're committing.
 
 1. Movement
 2. Melee and Missiles
 3. Miscellaneous
 
-On horseback, movement is a free action. On foot, players must decide whether they are moving, striking, shooting, or doing anything else that will occupy their turn.
+On horseback, movement is a free action. On foot, players must decide whether they're moving, striking, shooting, or doing anything else that will occupy their turn.
 
 Those striking in melee must be within 3" of the target. Using missiles at this range means a free attack against you.
 
 Ranged weapons have different ranges depending on the type.
 
-An attack hits only if it meets the target value listed on the To-Hit Tables. To determine which attack hits first during Skirmishes, the highest attack sum rolled after adding Wits modifiers only is the attack that lands first. If the enemy does not die after the first hit, blows are exchanged and blood continues to be shed.
+An attack hits only if it meets the target value listed on the To-Hit Tables. To know which attack hits first during Skirmishes, the highest attack sum rolled after adding Wits modifiers only is the attack that lands first. If the enemy doesn't die after the first hit, blows are exchanged and blood continues to be shed.
 
 Miscellaneous is anything from speaking for an extended amount of time to acquiring an important piece of gear from your pack.
 

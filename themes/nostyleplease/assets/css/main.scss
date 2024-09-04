@@ -40,6 +40,11 @@ html { height: 100%; scroll-behavior: smooth; }
   font-style: italic;
 }
 
+@font-face {
+  font-family: departure;
+  src: url("/fonts/DepartureMono-Regular.woff2") format("woff2");
+}
+
 body, form {
   color: #1d1d10;
   font-family: barlow;
@@ -119,10 +124,11 @@ hr {
 }
 
 pre {
-  background: #1d1d10;
+  background: #b9aec3;
+  font-family: departure, monospace;
   padding: 1em;
   overflow-x: auto; /* Fix pre content overflowing parent without scroll bar */
-}
+} 
 
 table {
   width: 100%;

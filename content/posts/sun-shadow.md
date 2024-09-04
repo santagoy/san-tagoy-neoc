@@ -2,6 +2,7 @@
 draft: false
 title: "Remembering the Sun and Its Shadows"
 date: 2023-06-29
+description: "Some practice piece?"
 categories:
  - poem
 tags:
@@ -36,8 +37,8 @@ I apparently had. I've been had.
 Yes, I know I'm loved, but not by Him.
 Them, yes. They're nice—real even. Who am I
 to deny charity. The gift horse's mouth?
-Bliss ceases where knowing begins. I rather not
-advertise? I ain't selling a thing. I don't
+Bliss ends when ignorance is cured. I rather not
+advertise? I ain't selling anything. I don't
 yell in Divisoria. I've only been there once.
 
 It's not a transaction? Thank God. I should

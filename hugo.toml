@@ -31,8 +31,35 @@ timeZone = 'Asia/Manila'
     endLevel = 5
     ordered = false
 
+  [markup.asciidocExt]
+    backend = 'html5'
+    extensions = []
+    failureLevel = 'fatal'
+    noHeaderOrFooter = true
+    preserveTOC = false
+    safeMode = 'unsafe'
+    sectionNumbers = false
+    trace = false
+    verbose = false
+    workingFolderCurrent = false
+    [markup.asciidocExt.attributes]
+
 [params]
   author = 'Nico Santagoy'
   images = ['/img/feature.webp']
   description = "I used to design games, now I write them. Am I a writer? I'd like to be one. I'd like to be many things, like a collage artist or a writer of Tabletop Role-playing Game content."
   favicon = '/favicon.ico'
+
+[security]
+enableInlineShortcodes = false
+
+[security.exec]
+allow = ["^dart-sass-embedded$", "^go$", "^npx$", '^git$', "^postcss$", "^asciidoctor$", '^tailwindcss$']
+# osEnv = ["(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM|RUBYLIB)$"]
+
+[security.funcs]
+getenv = ["^HUGO_", '^CI$']
+
+[security.http]
+methods = ["(?i)GET|POST"]
+urls = [".*"]

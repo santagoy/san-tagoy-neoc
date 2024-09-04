@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Newsletter on Getting Better</title><link>https://san-tagoy.neocities.org/categories/newsletter/</link><description>Recent content in Newsletter on Getting Better</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://san-tagoy.neocities.org/categories/newsletter/index.xml" rel="self" type="application/rss+xml"/><item><title>Found on the Road! No. 01</title><link>https://san-tagoy.neocities.org/posts/fotr-01/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0800</pubDate><guid>https://san-tagoy.neocities.org/posts/fotr-01/</guid><description>A rundown of interesting things I&amp;rsquo;ve found, new and old!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Newsletter on Getting Better</title>
+    <link>http://localhost:1313/categories/newsletter/</link>
+    <description>Recent content in Newsletter on Getting Better</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Jun 2023 00:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/newsletter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Found on the Road! No. 01</title>
+      <link>http://localhost:1313/posts/fotr-01/</link>
+      <pubDate>Fri, 30 Jun 2023 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/fotr-01/</guid>
+      <description>A rundown of interesting things I&amp;rsquo;ve found, new and old!</description>
+    </item>
+  </channel>
+</rss>
