@@ -1,33 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Poem on Getting Better</title>
-    <link>http://localhost:1313/categories/poem/</link>
-    <description>Recent content in Poem on Getting Better</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 04 Sep 2024 00:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/poem/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Meditations on Sugar, Spice, and Expiry Dates</title>
-      <link>http://localhost:1313/posts/meditations-sugar-spice/</link>
-      <pubDate>Wed, 04 Sep 2024 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/meditations-sugar-spice/</guid>
-      <description>Something I wrote on a whim about a past relationship and the growth thereafter.</description>
-    </item>
-    <item>
-      <title>Better Coffee, a Practice Poem</title>
-      <link>http://localhost:1313/posts/better-coffee/</link>
-      <pubDate>Thu, 03 Aug 2023 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/better-coffee/</guid>
-      <description>Something I wrote on a whim about a past relationship and the growth thereafter.</description>
-    </item>
-    <item>
-      <title>Remembering the Sun and Its Shadows</title>
-      <link>http://localhost:1313/posts/sun-shadow/</link>
-      <pubDate>Thu, 29 Jun 2023 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/sun-shadow/</guid>
-      <description>&lt;p&gt;Something I wrote about past mistakes, the burden of memory, and an epiphany brought about by good company.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Remember when I was young? I rather&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;not. The sins from then still stain&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;the once ivory light I shine. Bright,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;unyielding naivete colored those movements.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Wherever I went, my shadows inflicted pain,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;undeservingly—&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;I am not asking for contrition, Father.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;I am unworthy, but I fetch a good price&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;in the market. The one online where&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;we&amp;#39;re always shouting. Listening&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;to this plague of intrusive broadcasts&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;is the penance already. I can leave it?&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Where else am I to shill?&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;I didn&amp;#39;t have to back then, and yet I did.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;The retrospect churns my insides. It hits&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;me in the soft, fleshy mass of conscience&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;I apparently had. I&amp;#39;ve been had.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Yes, I know I&amp;#39;m loved, but not by Him.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Them, yes. They&amp;#39;re nice—real even. Who am I&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;to deny charity. The gift horse&amp;#39;s mouth?&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Bliss ends when ignorance is cured. I rather not&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;advertise? I ain&amp;#39;t selling anything. I don&amp;#39;t&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;yell in Divisoria. I&amp;#39;ve only been there once.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;It&amp;#39;s not a transaction? Thank God. I should&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;thank them for that. I owe them. They&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;deserve better. Although, I am better.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Looking back, The shadows cast&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;by my once ivory light in the dark&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;allegorical cave were only for&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;my entertainment. I looked back when&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;the momentum was forward.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;There is no Icarus. I choose to be&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;under the sun, even if it burns. I am not alone,&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;even if sometimes I am. Now, especially, there&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;are no longer&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;undeserved shadows.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Poem on Getting Better</title><link>https://san-tagoy.neocities.org/categories/poem/</link><description>Recent content in Poem on Getting Better</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 04 Sep 2024 00:00:00 +0800</lastBuildDate><atom:link href="https://san-tagoy.neocities.org/categories/poem/index.xml" rel="self" type="application/rss+xml"/><item><title>Meditations on Sugar, Spice, and Expiry Dates</title><link>https://san-tagoy.neocities.org/posts/meditations-sugar-spice/</link><pubDate>Wed, 04 Sep 2024 00:00:00 +0800</pubDate><guid>https://san-tagoy.neocities.org/posts/meditations-sugar-spice/</guid><description>Something I wrote on a whim about a past relationship and the growth thereafter.</description></item><item><title>Better Coffee, a Practice Poem</title><link>https://san-tagoy.neocities.org/posts/better-coffee/</link><pubDate>Thu, 03 Aug 2023 00:00:00 +0800</pubDate><guid>https://san-tagoy.neocities.org/posts/better-coffee/</guid><description>Something I wrote on a whim about a past relationship and the growth thereafter.</description></item><item><title>Remembering the Sun and Its Shadows</title><link>https://san-tagoy.neocities.org/posts/sun-shadow/</link><pubDate>Thu, 29 Jun 2023 00:00:00 +0800</pubDate><guid>https://san-tagoy.neocities.org/posts/sun-shadow/</guid><description>&lt;p>Something I wrote about past mistakes, the burden of memory, and an epiphany brought about by good company.&lt;/p>
+&lt;hr>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-plaintext" data-lang="plaintext">&lt;span style="display:flex;">&lt;span>Remember when I was young? I rather
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>not. The sins from then still stain
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>the once ivory light I shine. Bright,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>unyielding naivete colored those movements.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Wherever I went, my shadows inflicted pain,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>undeservingly—
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>I am not asking for contrition, Father.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>I am unworthy, but I fetch a good price
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>in the market. The one online where
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>we&amp;#39;re always shouting. Listening
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>to this plague of intrusive broadcasts
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>is the penance already. I can leave it?
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Where else am I to shill?
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>I didn&amp;#39;t have to back then, and yet I did.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>The retrospect churns my insides. It hits
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>me in the soft, fleshy mass of conscience
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>I apparently had. I&amp;#39;ve been had.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Yes, I know I&amp;#39;m loved, but not by Him.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Them, yes. They&amp;#39;re nice—real even. Who am I
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>to deny charity. The gift horse&amp;#39;s mouth?
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Bliss ends when ignorance is cured. I rather not
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>advertise? I ain&amp;#39;t selling anything. I don&amp;#39;t
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>yell in Divisoria. I&amp;#39;ve only been there once.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>It&amp;#39;s not a transaction? Thank God. I should
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>thank them for that. I owe them. They
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>deserve better. Although, I am better.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Looking back, The shadows cast
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>by my once ivory light in the dark
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>allegorical cave were only for
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>my entertainment. I looked back when
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>the momentum was forward.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>There is no Icarus. I choose to be
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>under the sun, even if it burns. I am not alone,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>even if sometimes I am. Now, especially, there
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>are no longer
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>undeserved shadows.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item></channel></rss>

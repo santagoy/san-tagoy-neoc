@@ -1,47 +1,298 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Wps on Getting Better</title>
-    <link>http://localhost:1313/wps/</link>
-    <description>Recent content in Wps on Getting Better</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 06 Jul 2023 00:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/wps/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Wanton Pinoy Spaghetti: Introduction</title>
-      <link>http://localhost:1313/wps/wps-intro/</link>
-      <pubDate>Thu, 06 Jul 2023 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/wps/wps-intro/</guid>
-      <description>TTRPG rules for playing in the wild times of late 19th Century Colonial Philippines.</description>
-    </item>
-    <item>
-      <title>Basic Character Generation</title>
-      <link>http://localhost:1313/wps/wps-chargen/</link>
-      <pubDate>Thu, 29 Jun 2023 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/wps/wps-chargen/</guid>
-      <description>&lt;p&gt;The fastest way to make a character.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Think of a character concept. Who are they in this time in history? A foreigner? A local? Regardless, they (and now by extension you) are in consistent company with a group of companions.&lt;/p&gt;&#xA;&lt;p&gt;These companions are the other players (their characters) at the table. Think of how you all know each other in the world. Why are you as thick as thieves? Are you thieves?&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Making a Character with Lifepaths</title>
-      <link>http://localhost:1313/wps/wps-lifepaths/</link>
-      <pubDate>Thu, 29 Jun 2023 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/wps/wps-lifepaths/</guid>
-      <description>&lt;h2 id=&#34;basic-assumptions&#34;&gt;Basic Assumptions&lt;/h2&gt;&#xA;&lt;p&gt;This is a more involved way of making a character. I do find this method generally more enjoyable if the point is to not make disposable characters.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Your character begins at 18 years of age&lt;/strong&gt;, untrained and inexperienced. By the end of character creation, you&amp;rsquo;re assumed to have either retired from your career in pursuit of other goals or began traveling while still practicing your preferred profession.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The Gear in your Inventory</title>
-      <link>http://localhost:1313/wps/wps-gear/</link>
-      <pubDate>Thu, 29 Jun 2023 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/wps/wps-gear/</guid>
-      <description>&lt;h2 id=&#34;blades&#34;&gt;Blades&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Item&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Cost&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Remarks&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Balisong&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;5&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;Concealable&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Throwing Knife&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;3&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;Concealable&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Hunting Knife&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;8&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Bolo&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;11&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Kris&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;16&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Cane Sword&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;27&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;Concealable&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;firearms&#34;&gt;Firearms&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Item&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Cost&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Remarks&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Revolver&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;18&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;6 shots&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Derringer&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;15&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;2 shots, Concealable&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Semi-automatic Pistol&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;20&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;8 shots&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Coach Gun&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;28&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;2 shots, quick reload, uses buckshot and slugs&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Pump-action Shotgun&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;37&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;6 shots, uses buckshot and slugs&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Lever-action Rifle&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;35&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;9 shots on hunting ammo, 14 shots on revolver ammo&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Single-shot Rifle&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;22&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;1 shot, quick reload, uses hunting or rifle ammo&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Bolt-Action Rifle&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;45&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;5 Shots, quick reload, uses rifle ammo&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Speed Loader&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;8&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;quick reload for revolver&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Revolver Ammunition&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;2&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;18 rounds, 1 slot&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Pistol Ammunition&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;3&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;24 rounds, 1 slot&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Hunting Ammunition&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;5&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;12 rounds, 1 slot&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Rifle Ammunition&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;8&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;15 rounds, 1 slot&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Buckshot&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;10&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;14 rounds, 1 slot&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Slugs&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;12&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;14 rounds, 1 slot&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;tools-and-misc&#34;&gt;Tools and Misc&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Item&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Cost&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Remarks&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;15m Manila Rope&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;2&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Doctor&amp;rsquo;s Bag&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;35&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Grappling Hook&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;8&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Leather Rucksack&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;8&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Lockpicking Set&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;5&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Spyglass&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;10&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Ration&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;2&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;1 day&amp;rsquo;s worth&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Saddle&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;20&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;Salakot&lt;/em&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;5&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;animals&#34;&gt;Animals&lt;/h2&gt;&#xA;&lt;h3 id=&#34;livestock&#34;&gt;Livestock&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Item&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Cost&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Remarks&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Native Cattle&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;50&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Imported Cattle&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;100&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Pig&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;18&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;breeds fast&lt;/em&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Goat&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;35&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Chicken&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;8&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Fine Fighting Cock&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;175&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;beasts-of-burden&#34;&gt;Beasts of Burden&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Item&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;Price&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Description&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Pack Horse&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;50&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;all horses carry 15 slots&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Race Horse&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;100&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;for riding quickly over far distances&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;War Horse&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;375&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;trained for combat and to trample over others&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Donkey&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;25&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;carries 10 slots, draft animal, but not as hardy&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Carabao&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;20&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;carries 30 slots, draft animal&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Camel&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;450&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;carries 20 slots, riding or pack animal&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Cart&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;100&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;allows for 80 slots while hitched to a draft beast&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Wagon&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;250&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;allows for 250 slots while hitched to a draft beast&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;Carriage&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;325&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;allows for 150 slots while hitched to a draft beast&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;Animals hitched may pull 4x their slots, but require a road to pass through mountains, forests, swamps, or desert terrain.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Wanton Pinoy Spaghetti: Violence</title>
-      <link>http://localhost:1313/wps/wps-violence/</link>
-      <pubDate>Thu, 29 Jun 2023 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/wps/wps-violence/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;Based on &lt;a href=&#34;https://lukegearing.blot.im/violence&#34;&gt;Luke Gearing&amp;rsquo;s Violence&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;initiative&#34;&gt;Initiative&lt;/h2&gt;&#xA;&lt;p&gt;Roll a d20 for each individual or group involved in the combat. Write these down and resolve, highest first.&lt;/p&gt;&#xA;&lt;p&gt;Do this at the beginning of each Round. A Round is an innumerably fast amount of time. A single moment between life and death.&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;ve caught your opponents by surprise, you all shoot first and resolve Initiative after the players&amp;rsquo; turns.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wps on Getting Better</title><link>https://san-tagoy.neocities.org/wps/</link><description>Recent content in Wps on Getting Better</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Jul 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://san-tagoy.neocities.org/wps/index.xml" rel="self" type="application/rss+xml"/><item><title>Wanton Pinoy Spaghetti: Introduction</title><link>https://san-tagoy.neocities.org/wps/wps-intro/</link><pubDate>Thu, 06 Jul 2023 00:00:00 +0800</pubDate><guid>https://san-tagoy.neocities.org/wps/wps-intro/</guid><description>TTRPG rules for playing in the wild times of late 19th Century Colonial Philippines.</description></item><item><title>Basic Character Generation</title><link>https://san-tagoy.neocities.org/wps/wps-chargen/</link><pubDate>Thu, 29 Jun 2023 00:00:00 +0800</pubDate><guid>https://san-tagoy.neocities.org/wps/wps-chargen/</guid><description>&lt;p>The fastest way to make a character.&lt;/p>
+&lt;hr>
+&lt;p>Think of a character concept. Who are they in this time in history? A foreigner? A local? Regardless, they (and now by extension you) are in consistent company with a group of companions.&lt;/p>
+&lt;p>These companions are the other players (their characters) at the table. Think of how you all know each other in the world. Why are you as thick as thieves? Are you thieves?&lt;/p></description></item><item><title>Making a Character with Lifepaths</title><link>https://san-tagoy.neocities.org/wps/wps-lifepaths/</link><pubDate>Thu, 29 Jun 2023 00:00:00 +0800</pubDate><guid>https://san-tagoy.neocities.org/wps/wps-lifepaths/</guid><description>&lt;h2 id="basic-assumptions">Basic Assumptions&lt;/h2>
+&lt;p>This is a more involved way of making a character. I do find this method generally more enjoyable if the point is to not make disposable characters.&lt;/p>
+&lt;p>&lt;strong>Your character begins at 18 years of age&lt;/strong>, untrained and inexperienced. By the end of character creation, you&amp;rsquo;re assumed to have either retired from your career in pursuit of other goals or began traveling while still practicing your preferred profession.&lt;/p></description></item><item><title>The Gear in your Inventory</title><link>https://san-tagoy.neocities.org/wps/wps-gear/</link><pubDate>Thu, 29 Jun 2023 00:00:00 +0800</pubDate><guid>https://san-tagoy.neocities.org/wps/wps-gear/</guid><description>&lt;h2 id="blades">Blades&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: center">Item&lt;/th>
+ &lt;th style="text-align: center">Cost&lt;/th>
+ &lt;th style="text-align: center">Remarks&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: center">Balisong&lt;/td>
+ &lt;td style="text-align: center">5&lt;/td>
+ &lt;td style="text-align: center">&lt;em>Concealable&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Throwing Knife&lt;/td>
+ &lt;td style="text-align: center">3&lt;/td>
+ &lt;td style="text-align: center">&lt;em>Concealable&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Hunting Knife&lt;/td>
+ &lt;td style="text-align: center">8&lt;/td>
+ &lt;td style="text-align: center">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Bolo&lt;/td>
+ &lt;td style="text-align: center">11&lt;/td>
+ &lt;td style="text-align: center">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Kris&lt;/td>
+ &lt;td style="text-align: center">16&lt;/td>
+ &lt;td style="text-align: center">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Cane Sword&lt;/td>
+ &lt;td style="text-align: center">27&lt;/td>
+ &lt;td style="text-align: center">&lt;em>Concealable&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="firearms">Firearms&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: center">Item&lt;/th>
+ &lt;th style="text-align: center">Cost&lt;/th>
+ &lt;th style="text-align: center">Remarks&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: center">Revolver&lt;/td>
+ &lt;td style="text-align: center">18&lt;/td>
+ &lt;td style="text-align: center">&lt;em>6 shots&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Derringer&lt;/td>
+ &lt;td style="text-align: center">15&lt;/td>
+ &lt;td style="text-align: center">&lt;em>2 shots, Concealable&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Semi-automatic Pistol&lt;/td>
+ &lt;td style="text-align: center">20&lt;/td>
+ &lt;td style="text-align: center">&lt;em>8 shots&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Coach Gun&lt;/td>
+ &lt;td style="text-align: center">28&lt;/td>
+ &lt;td style="text-align: center">&lt;em>2 shots, quick reload, uses buckshot and slugs&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Pump-action Shotgun&lt;/td>
+ &lt;td style="text-align: center">37&lt;/td>
+ &lt;td style="text-align: center">&lt;em>6 shots, uses buckshot and slugs&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Lever-action Rifle&lt;/td>
+ &lt;td style="text-align: center">35&lt;/td>
+ &lt;td style="text-align: center">&lt;em>9 shots on hunting ammo, 14 shots on revolver ammo&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Single-shot Rifle&lt;/td>
+ &lt;td style="text-align: center">22&lt;/td>
+ &lt;td style="text-align: center">&lt;em>1 shot, quick reload, uses hunting or rifle ammo&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Bolt-Action Rifle&lt;/td>
+ &lt;td style="text-align: center">45&lt;/td>
+ &lt;td style="text-align: center">&lt;em>5 Shots, quick reload, uses rifle ammo&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Speed Loader&lt;/td>
+ &lt;td style="text-align: center">8&lt;/td>
+ &lt;td style="text-align: center">&lt;em>quick reload for revolver&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Revolver Ammunition&lt;/td>
+ &lt;td style="text-align: center">2&lt;/td>
+ &lt;td style="text-align: center">&lt;em>18 rounds, 1 slot&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Pistol Ammunition&lt;/td>
+ &lt;td style="text-align: center">3&lt;/td>
+ &lt;td style="text-align: center">&lt;em>24 rounds, 1 slot&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Hunting Ammunition&lt;/td>
+ &lt;td style="text-align: center">5&lt;/td>
+ &lt;td style="text-align: center">&lt;em>12 rounds, 1 slot&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Rifle Ammunition&lt;/td>
+ &lt;td style="text-align: center">8&lt;/td>
+ &lt;td style="text-align: center">&lt;em>15 rounds, 1 slot&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Buckshot&lt;/td>
+ &lt;td style="text-align: center">10&lt;/td>
+ &lt;td style="text-align: center">&lt;em>14 rounds, 1 slot&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Slugs&lt;/td>
+ &lt;td style="text-align: center">12&lt;/td>
+ &lt;td style="text-align: center">&lt;em>14 rounds, 1 slot&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="tools-and-misc">Tools and Misc&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: center">Item&lt;/th>
+ &lt;th style="text-align: center">Cost&lt;/th>
+ &lt;th style="text-align: center">Remarks&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: center">15m Manila Rope&lt;/td>
+ &lt;td style="text-align: center">2&lt;/td>
+ &lt;td style="text-align: center">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Doctor&amp;rsquo;s Bag&lt;/td>
+ &lt;td style="text-align: center">35&lt;/td>
+ &lt;td style="text-align: center">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Grappling Hook&lt;/td>
+ &lt;td style="text-align: center">8&lt;/td>
+ &lt;td style="text-align: center">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Leather Rucksack&lt;/td>
+ &lt;td style="text-align: center">8&lt;/td>
+ &lt;td style="text-align: center">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Lockpicking Set&lt;/td>
+ &lt;td style="text-align: center">5&lt;/td>
+ &lt;td style="text-align: center">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Spyglass&lt;/td>
+ &lt;td style="text-align: center">10&lt;/td>
+ &lt;td style="text-align: center">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Ration&lt;/td>
+ &lt;td style="text-align: center">2&lt;/td>
+ &lt;td style="text-align: center">&lt;em>1 day&amp;rsquo;s worth&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Saddle&lt;/td>
+ &lt;td style="text-align: center">20&lt;/td>
+ &lt;td style="text-align: center">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;em>Salakot&lt;/em>&lt;/td>
+ &lt;td style="text-align: center">5&lt;/td>
+ &lt;td style="text-align: center">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="animals">Animals&lt;/h2>
+&lt;h3 id="livestock">Livestock&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: center">Item&lt;/th>
+ &lt;th style="text-align: center">Cost&lt;/th>
+ &lt;th style="text-align: center">Remarks&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: center">Native Cattle&lt;/td>
+ &lt;td style="text-align: center">50&lt;/td>
+ &lt;td style="text-align: center">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Imported Cattle&lt;/td>
+ &lt;td style="text-align: center">100&lt;/td>
+ &lt;td style="text-align: center">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Pig&lt;/td>
+ &lt;td style="text-align: center">18&lt;/td>
+ &lt;td style="text-align: center">&lt;em>breeds fast&lt;/em>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Goat&lt;/td>
+ &lt;td style="text-align: center">35&lt;/td>
+ &lt;td style="text-align: center">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Chicken&lt;/td>
+ &lt;td style="text-align: center">8&lt;/td>
+ &lt;td style="text-align: center">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Fine Fighting Cock&lt;/td>
+ &lt;td style="text-align: center">175&lt;/td>
+ &lt;td style="text-align: center">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="beasts-of-burden">Beasts of Burden&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: center">Item&lt;/th>
+ &lt;th style="text-align: center">Price&lt;/th>
+ &lt;th style="text-align: left">Description&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: center">Pack Horse&lt;/td>
+ &lt;td style="text-align: center">50&lt;/td>
+ &lt;td style="text-align: left">all horses carry 15 slots&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Race Horse&lt;/td>
+ &lt;td style="text-align: center">100&lt;/td>
+ &lt;td style="text-align: left">for riding quickly over far distances&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">War Horse&lt;/td>
+ &lt;td style="text-align: center">375&lt;/td>
+ &lt;td style="text-align: left">trained for combat and to trample over others&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Donkey&lt;/td>
+ &lt;td style="text-align: center">25&lt;/td>
+ &lt;td style="text-align: left">carries 10 slots, draft animal, but not as hardy&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Carabao&lt;/td>
+ &lt;td style="text-align: center">20&lt;/td>
+ &lt;td style="text-align: left">carries 30 slots, draft animal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Camel&lt;/td>
+ &lt;td style="text-align: center">450&lt;/td>
+ &lt;td style="text-align: left">carries 20 slots, riding or pack animal&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Cart&lt;/td>
+ &lt;td style="text-align: center">100&lt;/td>
+ &lt;td style="text-align: left">allows for 80 slots while hitched to a draft beast&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Wagon&lt;/td>
+ &lt;td style="text-align: center">250&lt;/td>
+ &lt;td style="text-align: left">allows for 250 slots while hitched to a draft beast&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Carriage&lt;/td>
+ &lt;td style="text-align: center">325&lt;/td>
+ &lt;td style="text-align: left">allows for 150 slots while hitched to a draft beast&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>Animals hitched may pull 4x their slots, but require a road to pass through mountains, forests, swamps, or desert terrain.&lt;/p></description></item><item><title>Wanton Pinoy Spaghetti: Violence</title><link>https://san-tagoy.neocities.org/wps/wps-violence/</link><pubDate>Thu, 29 Jun 2023 00:00:00 +0800</pubDate><guid>https://san-tagoy.neocities.org/wps/wps-violence/</guid><description>&lt;hr>
+&lt;p>&lt;em>Based on &lt;a href="https://lukegearing.blot.im/violence">Luke Gearing&amp;rsquo;s Violence&lt;/a>!&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h2 id="initiative">Initiative&lt;/h2>
+&lt;p>Roll a d20 for each individual or group involved in the combat. Write these down and resolve, highest first.&lt;/p>
+&lt;p>Do this at the beginning of each Round. A Round is an innumerably fast amount of time. A single moment between life and death.&lt;/p>
+&lt;p>If you&amp;rsquo;ve caught your opponents by surprise, you all shoot first and resolve Initiative after the players&amp;rsquo; turns.&lt;/p></description></item></channel></rss>
