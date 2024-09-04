@@ -126,9 +126,10 @@ hr {
 pre {
   background: #b9aec3;
   font-family: departure, monospace;
+  font-size: 0.90em;
   padding: 1em;
   overflow-x: auto; /* Fix pre content overflowing parent without scroll bar */
-} 
+}
 
 table {
   width: 100%;
@@ -183,12 +184,13 @@ figcaption {
 }
 
 a:link {
-  text-decoration: none;
-  color: #9f1900;
+  text-decoration: underline;
+  color: #1d1d10;
 }
 
 a:visited {
-  color: #7c6a00;
+  color: underline overline;
+  color: #1d1d10;
 }
 
 a:hover {
@@ -363,4 +365,8 @@ div#fix_toc::-webkit-scrollbar {
 }
 #home-bttn:hover {
   transform: rotate(10deg);
+}
+
+.home-txt {
+  text-align: center;
 }
