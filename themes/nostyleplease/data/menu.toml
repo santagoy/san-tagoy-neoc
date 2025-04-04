@@ -8,26 +8,12 @@ title = "info"
   title = "I mainly write about ttrpgs, but there's the occassional thought piece or poem."
 
   [[entries.entries]]
-  title = "If you like what I do and want to see more of it, <a href='https://ko-fi.com/san_tagoy' target='_blank' rel='noopener noreferrer'>support me on Ko-Fi!</a>"
-
-  [[entries.entries]]
   title = "RSS feed"
   url = "https://san-tagoy.neocities.org/index.xml"
 
   [[entries.entries]]
-  title = "reach out"
-
-  [[entries.entries.entries]]
   title = "howdy@san-tagoy.online"
   url = "mailto:howdy@san-tagoy.online"
-
-  [[entries.entries.entries]]
-  title = "mastodon"
-  url = "https://dice.camp/@san_tagoy"
-
-  [[entries.entries.entries]]
-  title = "cohost"
-  url = "https://cohost.org/san-tagoy"
 
 [[entries]]
 title = "the blog"

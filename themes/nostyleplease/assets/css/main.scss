@@ -24,20 +24,8 @@ html, body { background: #b9aec3; }
 html { height: 100%; scroll-behavior: smooth; }
 
 @font-face {
-  font-family: barlow;
-  src: url("/fonts/barlow/Barlow-Regular.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: barlow;
-  src: url("/fonts/barlow/Barlow-Bold.woff2") format("woff2");
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: barlow;
-  src: url("/fonts/barlow/Barlow-Italic.woff2") format("woff2");
-  font-style: italic;
+  font-family: national park;
+  src: url("/fonts/NationalPark-VariableVF.woff2") format("woff2");
 }
 
 @font-face {
@@ -45,9 +33,14 @@ html { height: 100%; scroll-behavior: smooth; }
   src: url("/fonts/DepartureMono-Regular.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: pecita;
+  src: url("/fonts/Pecita.woff2") format("woff2");
+}
+
 body, form {
   color: #1d1d10;
-  font-family: barlow;
+  font-family: 'national park';
   font-size: 17px;
   line-height: 1.4;
   margin: 0;
@@ -55,6 +48,11 @@ body, form {
 }
 
 .post-meta { text-align: right; }
+
+h1 {
+  font-family: pecita;
+  font-size: 55px;
+}
 
 h2, h3, h4, h5, h6 { margin-top: 3rem; }
 
